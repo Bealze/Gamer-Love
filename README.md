@@ -1,3 +1,3 @@
-Project Gammer Love is my simple way to share with the self-hosting gamers that are still around.
-As a hosting provider, I understand the greed not wanting to share a config But let us be real the only ones that are renting single game servers are the ones who wouldn't even be searching in google.
-My Releases are focused on Game Config files For The Controle Pannel labeled TCAdmin.
+Just import the config to your tcadmin and be sure to either overwrite a old config or add it as a new one.
+if you Need help or would like to add to the configs create an issue requesting so.
+
