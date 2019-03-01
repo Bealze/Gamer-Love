@@ -28,11 +28,11 @@
   &lt;add key="__TCA:NOTES" value="Tweaked by Beals 2/28/2019" type="System.String,mscorlib" /&gt;
   &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:FileManager" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;FileManagerConfig xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EditPatterns&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.cfg&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.txt&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.ini&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/EditPatterns&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxEditSize&amp;gt;102400&amp;lt;/MaxEditSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDecompress&amp;gt;true&amp;lt;/EnableDecompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableCompress&amp;gt;true&amp;lt;/EnableCompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxCompressSize&amp;gt;52428800&amp;lt;/MaxCompressSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableUpload&amp;gt;true&amp;lt;/EnableUpload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDownload&amp;gt;true&amp;lt;/EnableDownload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;DefaultFileName&amp;gt;custom.cfg&amp;lt;/DefaultFileName&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;WriteBom&amp;gt;false&amp;lt;/WriteBom&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/FileManagerConfig&amp;gt;" type="TCAdmin.SDK.Web.FileManager.FileManagerConfig,TCAdmin.SDK.Web" /&gt;
   &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_ON" value="2019-03-01 06:17:39" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2019-03-01 23:55:07" type="System.DateTime,mscorlib" /&gt;
   &lt;add key="__TCA:V1_GAME_ID" value="" type="System.String,mscorlib" /&gt;
   &lt;add key="__TCA:CREATE_SYMLINK" value="False" type="System.Boolean,mscorlib" /&gt;
   &lt;add key="__TCA:STEAM_API_GAME_VERSION" value="126:1056" type="System.String,mscorlib" /&gt;
-  &lt;add key="__TCA:STEAM_API_GAME_VERSION_UPDATE" value="2019-03-01 06:17:40" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:STEAM_API_GAME_VERSION_UPDATE" value="2019-03-01 23:55:08" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
   </tc_games>
   <tc_game_paths>
@@ -105,7 +105,7 @@
   </tc_game_ports>
   <tc_game_cmdlines>
     <game_id>109</game_id>
-    <cmdline_default>kf-bioticslab?AdminPassword=$[RConPassword]?MaxPlayers=$[Service.Slots]?Difficulty=1 -Multihome=$[Service.IpAddress] -Port=$[Service.GamePort] -QueryPort=$[Service.QueryPort] -WebAdminPort=$[Service.CustomPort1]</cmdline_default>
+    <cmdline_default>kf-bioticslab?AdminPassword=$[RConPassword]?MaxPlayers=$[Service.Slots]?Difficulty=1 -Multihome=$[Service.IpAddress] -Port=$[Service.GamePort] -QueryPort=$[Service.QueryPort] -WebAdminPort=$[Service.CustomPort1] -ConfigSubDir=SvrData</cmdline_default>
     <cmdline_private />
     <cmdline_default_custom />
     <cmdline_private_custom />
@@ -113,7 +113,7 @@
 &lt;ArrayOfPredefinedCommandLine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
   &lt;PredefinedCommandLine&gt;
     &lt;Id&gt;e0340d28-851f-405d-903b-e60b66c77c59&lt;/Id&gt;
-    &lt;CommandLine&gt;kf-bioticslab?AdminPassword=$[RConPassword]?MaxPlayers=$[Service.Slots]?Difficulty=1 -Multihome=$[Service.IpAddress] -Port=$[Service.GamePort] -QueryPort=$[Service.QueryPort] -WebAdminPort=$[Service.CustomPort1]&lt;/CommandLine&gt;
+    &lt;CommandLine&gt;kf-bioticslab?AdminPassword=$[RConPassword]?MaxPlayers=$[Service.Slots]?Difficulty=1 -Multihome=$[Service.IpAddress] -Port=$[Service.GamePort] -QueryPort=$[Service.QueryPort] -WebAdminPort=$[Service.CustomPort1] -ConfigSubDir=SvrData&lt;/CommandLine&gt;
     &lt;Description&gt;Default-2019&lt;/Description&gt;
   &lt;/PredefinedCommandLine&gt;
 &lt;/ArrayOfPredefinedCommandLine&gt;</predef_cmdlines>
@@ -180,7 +180,7 @@
   &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_ON" value="2011-07-28 04:54:14" type="System.DateTime,mscorlib" /&gt;
   &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_ON" value="2019-03-01 06:17:40" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2019-03-01 23:55:08" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
   </tc_game_mail_templates>
   <tc_game_steam_config>
@@ -269,7 +269,7 @@
     <game_id>109</game_id>
     <file_id>1</file_id>
     <mod_id>0</mod_id>
-    <relative_path>KFGame\Config\KFWeb.ini</relative_path>
+    <relative_path>KFGame\Config\SvrData\KFWeb.ini</relative_path>
     <description>Web Cfg</description>
     <view_order>0</view_order>
     <template>[IpDrv.WebConnection]
@@ -284,7 +284,7 @@ ApplicationPaths[1]=/images
 ListenPort=$[Service.CustomPort1]
 MaxConnections=18
 ExpirationSeconds=86400
-bEnabled=$[IsPublicBoolean]
+bEnabled=true
 
 [IpDrv.WebResponse]
 IncludePath=/KFGame/Web
@@ -294,12 +294,763 @@ IncludePath=/KFGame/Web
     <hide_path>0</hide_path>
     <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
 &lt;values&gt;
-  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="kf-bioticslab?AdminPassword=$[RConPassword]?MaxPlayers=$[Service.Slots]?Difficulty=1 -Multihome=$[Service.IpAddress] -Port=$[Service.GamePort] -QueryPort=$[Service.QueryPort] -WebAdminPort=$[Service.CustomPort1] -ConfigSubDir=" type="System.String,mscorlib" /&gt;
   &lt;add key="__TCA:Encoding" value="0" type="System.Int32,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_ON" value="2019-02-28 20:36:03" type="System.DateTime,mscorlib" /&gt;
   &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_ON" value="2019-02-28 22:07:50" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2019-03-01 23:28:47" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <hide_read_failure>0</hide_read_failure>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>109</game_id>
+    <file_id>2</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>KFGame\Config\SvrData\PCServer-KFGame.ini</relative_path>
+    <description>Cfg</description>
+    <view_order>0</view_order>
+    <template>[Engine.GameInfo]
+DefaultGame=KFGameContent.KFGameInfo_Survival
+DefaultServerGame=KFGameContent.KFGameInfo_Survival
+bAdminCanPause=True
+MaxPlayers=6
+GameDifficulty=1.000000
+bChangeLevels=True
+MaxSpectators=2
+MaxIdleTime=0.000000
+MaxTimeMargin=0.000000
+TimeMarginSlack=1.350000
+MinTimeMargin=-1.000000
+TotalNetBandwidth=32000
+MaxDynamicBandwidth=7000
+MinDynamicBandwidth=4000
+DefaultGameType=KFGameContent.KFGameInfo_Survival
+GoreLevel=0
+TimeBetweenFailedVotes=10.0
+VoteTime=10.0
+bIsStandbyCheckingEnabled=false
+KickVotePercentage=0.500000
+bKickLiveIdlers=False
+ArbitrationHandshakeTimeout=0.000000
+GoalScore=0
+MaxLives=0
+TimeLimit=0
+StandbyRxCheatTime=0.000000
+StandbyTxCheatTime=0.000000
+BadPingThreshold=0
+PercentMissingForRxStandby=0.000000
+PercentMissingForTxStandby=0.000000
+PercentForBadPing=0.000000
+JoinInProgressStandbyWaitTime=0.000000
+AnimTreePoolSize=0
+
+[Engine.AccessControl]
+IPPolicies=ACCEPT;*
+bAuthenticateClients=True
+bAuthenticateServer=True
+bAuthenticateListenHost=True
+MaxAuthRetryCount=3
+AuthRetryDelay=5
+AdminPassword=$[RConPassword]
+GamePassword=$[PrivatePassword]
+
+[DefaultPlayer]
+Name=Player
+Team=255
+
+[Engine.HUD]
+bMessageBeep=true
+HudCanvasScale=0.95
+ConsoleMessageCount=4
+ConsoleFontSize=5
+MessageFontOffset=0
+bShowHUD=true
+bShowDirectorInfoDebug=false
+bShowDirectorInfoHUD=false
+DebugDisplay=AI
+
+[Engine.PlayerController]
+bAimingHelp=false
+InteractDistance=512
+bCheckRelevancyThroughPortals=true
+MaxConcurrentHearSounds=32
+bLogHearSoundOverflow=FALSE
+bShowKismetDrawText=True
+bNeverSwitchOnPickup=False
+
+[Engine.Weapon]
+Priority=-1.0
+
+[Engine.WorldInfo]
+DefaultGravityZ=-750.0
+RBPhysicsGravityScaling=1.0
+MaxPhysicsSubsteps=5
+SquintModeKernelSize=128.0
+DecalManagerClassPath=Engine.DecalManager
+FracturedMeshWeaponDamage=1.0
+ChanceOfPhysicsChunkOverride=1.0
+bEnableChanceOfPhysicsChunkOverride=FALSE
+FractureExplosionVelScale=1.0
+DefaultAmbientZoneSettings=(bIsWorldInfo=true)
+bPersistPostProcessToNextLevel=False
+bAllowHostMigration=FALSE
+HostMigrationTimeout=15
+bAllowTemporalAA=True
+bNoMobileMapWarnings=True
+AkAudioPoolHelperClassPath=KFGame.KFAkAudioPoolHelper
+EmitterPoolScale=1.0
+DestructionLifetimeScale=1.0
+bAllowExplosionLights=True
+MaxExplosionDecals=15
+
+[Engine.AutoTestManager]
+NumMinutesPerMap=50
+#CommandsToRunAtEachTravelTheWorldNode=MemLeakCheck
+#CommandsToRunAtEachTravelTheWorldNode=SNAPSHOTMEMORY
+
+[Engine.DecalManager]
+DecalLifeSpan=10.0
+
+[Engine.UIDataStore_GameResource]
+ElementProviderTypes=(ProviderTag="GameTypes",ProviderClassName="KFGame.KFGameInfoSummary")
+ElementProviderTypes=(ProviderTag="Maps",ProviderClassName="KFGame.KFMapSummary")
+ElementProviderTypes=(ProviderTag="Mutators",ProviderClassName="KFGame.KFMutatorSummary")
+
+[GameFramework.GameCheatManager]
+DebugCameraControllerClassName=GameFramework.DebugCameraController
+
+[GameFramework.MobileHud]
+bShowMobileHud=true
+bShowGameHud=false
+
+[GameFramework.MobileInputZone]
+RenderColor=(R=255,G=255,B=255,A=255)
+InactiveAlpha=0.5
+SizeX=100
+SizeY=100
+VertMultiplier=1.0
+HorizMultiplier=1.0
+bUseGentleTransitions=true
+ResetCenterAfterInactivityTime=3.0
+ActivateTime=0.6
+DeactivateTime=0.2
+TapDistanceConstraint=5
+bApplyGlobalScaleToActiveSizes=true
+AuthoredGlobalScale=2.0
+
+[GameFramework.FrameworkGame]
+RequiredMobileInputConfigs=(GroupName="DebugGroup",RequireZoneNames=("DebugStickMoveZone","DebugStickLookZone","DebugLookZone"))
+
+[DebugLookZone MobileInputZone]
+InputKey=MouseY
+HorizontalInputKey=MouseX
+TapInputKey=MOBILE_Fire
+Type=ZoneType_Trackball
+bRelativeSizeX=true
+bRelativeSizeY=true
+X=0
+Y=0
+SizeX=1.0
+SizeY=1.0
+VertMultiplier=-0.0007
+HorizMultiplier=0.001
+Acceleration=12.0
+Smoothing=1.0
+EscapeVelocityStrength=0.85
+bIsInvisible=1
+TapDistanceConstraint=32
+
+[DebugStickMoveZone MobileInputZone]
+InputKey=MOBILE_AForward
+HorizontalInputKey=MOBILE_AStrafe
+Type=ZoneType_Joystick
+bRelativeX=true
+bRelativeY=true
+bRelativeSizeX=true
+bRelativeSizeY=true
+X=0.05
+Y=-0.4
+SizeX=0.1965
+SizeY=1.0
+bSizeYFromSizeX=true
+VertMultiplier=-1.0
+HorizMultiplier=1.0
+bScalePawnMovement=true
+RenderColor=(R=255,G=255,B=255,A=255)
+InactiveAlpha=0.25
+bUseGentleTransitions=true
+ResetCenterAfterInactivityTime=3.0
+ActivateTime=0.6
+DeactivateTime=0.2
+TapDistanceConstraint=5
+
+[DebugStickLookZone MobileInputZone]
+InputKey=MOBILE_ALookUp
+HorizontalInputKey=MOBILE_ATurn
+Type=ZoneType_Joystick
+bRelativeX=true
+bRelativeY=true
+bRelativeSizeX=true
+bRelativeSizeY=true
+VertMultiplier=-0.5
+HorizMultiplier=0.35
+X=-0.2465
+Y=-0.4
+SizeX=0.1965
+SizeY=1.0
+bSizeYFromSizeX=true
+RenderColor=(R=255,G=255,B=255,A=255)
+InactiveAlpha=0.25
+bUseGentleTransitions=true
+ResetCenterAfterInactivityTime=3.0
+ActivateTime=0.6
+DeactivateTime=0.2
+TapDistanceConstraint=5
+
+[BaseAI.AIDebugTool]
+DebugDrawMode=gcb
+
+[BaseAI.AnimationProxy]
+
+[Configuration]
+
+[KFGame.KFFlashlightAttachment]
+bSkipBestFlashlightCheck=false
+
+[KFGame.KFPlayerController]
+bDebugTargetAdhesion=False
+SavedPerkIndex=1
+ForceFeedbackManagerClassName=WinDrv.XnaForceFeedbackManager
+
+[KFGame.KFPawn]
+bAllowFootstepSounds=True
+bAllowAlwaysOnPhysics=True
+bAllowRagdollAndGoreOnDeadBodies=True
+
+[KFGame.KFPawn_Human]
+BloodPoolDelay=2
+
+[KFGame.KFImpactEffectManager]
+MaxImpactEffectDecals=20
+
+[KFGame.KFGoreManager]
+GoreFXLifetimeMultiplier=1.0
+BodyWoundDecalLifetime=30
+BloodSplatterLifetime=10
+BloodPoolLifetime=20
+GibletLifetime=10
+MaxBodyWoundDecals=5
+MaxBloodSplatterDecals=20
+MaxBloodPoolDecals=20
+BloodSplatSize=100
+BloodPoolSize=125
+MaxDeadBodies=12
+MaxBloodEffects=25
+MaxGoreEffects=10
+AllowBloodSplatterDecals=True
+PersistentSplatTraceLength=1000
+MaxPersistentSplatsPerFrame=75
+
+[KFGAME.KFHUDBase]
+FriendlyHudScale=1.0
+
+[KFGame.KFGameInfo]
+GameModes=(FriendlyName="Survival",ClassNameAndPath="KFGameContent.KFGameInfo_Survival",bSoloPlaySupported=True,DifficultyLevels=4,Lengths=4,LocalizeID=0)
+GameModes=(FriendlyName="Weekly",ClassNameAndPath="KFGameContent.KFGameInfo_WeeklySurvival",bSoloPlaySupported=True,DifficultyLevels=0,Lengths=0,LocalizeID=1)
+GameModes=(FriendlyName="Versus",ClassNameAndPath="KFGameContent.KFGameInfo_VersusSurvival",bSoloPlaySupported=False,DifficultyLevels=0,Lengths=0,LocalizeID=2)
+GameModes=(FriendlyName="Endless",ClassNameAndPath="KFGameContent.KFGameInfo_Endless",bSoloPlaySupported=True,DifficultyLevels=4,Lengths=0,LocalizeID=3)
+GameLength=2
+MinNetPlayers=1
+GameStartDelay=4
+ReadyUpDelay=90
+bWaitForNetPlayers=true
+GameplayEventsWriterClassName=KFGame.KFGameplayEventsWriter
+bEnableMapObjectives=true
+bUseMapList=True
+ActiveMapCycle=0
+GameMapCycles=(Maps=("KF-BurningParis","KF-Bioticslab","KF-Outpost","KF-VolterManor","KF-Catacombs","KF-EvacuationPoint","KF-Farmhouse","KF-BlackForest","KF-Prison","KF-ContainmentStation","KF-HostileGrounds","KF-InfernalRealm","KF-ZedLanding","KF-Nuked","KF-TheDescent","KF-TragicKingdom","KF-Nightmare","KF-KrampusLair","KF-DieSector","KF-Powercore_Holdout","KF-Lockdown","KF-Airship","KF-ShoppingSpree","KF-MonsterBall","KF-SantasWorkshop","KF-BioticsLab","KF-PowerCore_Holdout"))
+EndOfGameDelay=15
+FriendlyFireScale=0.000000
+KickVotePercentage=0.660000
+TimeBetweenFailedVotes=10.000000
+VoteTime=60.0
+MapVoteDuration=60.000000
+bLogGameBalance=true
+BannerLink=https://pitstop.nafigg.com/?ctrl=file&amp;action=getFile&amp;targetObjId=file-6&amp;display=true&amp;extension=.png
+ServerMOTD=Welcome to our server. \n \n Have fun and good luck!
+WebsiteLink=https://nafigg.com
+ServerMOTDColor=(B=254,G=254,R=254,A=255)
+WebLinkColor=(B=36,G=199,R=58,A=255)
+ClanMotto=Not A Fuck IS Given Gaming.
+ClanMottoColor=(B=254,G=254,R=254,A=255)
+bEnableDeadToVOIP=true
+ServerExpirationForKillWhenEmpty=120.000000
+bDisableKickVote=False
+bDisablePublicTextChat=False
+bDisableVOIP=False
+bPartitionSpectators=False
+bDisablePickups=False
+bDisableMapVote=False
+bDisableTeamCollision=True
+bDisablePublicVOIPChannel=False
+MapVotePercentage=0.000000
+MapCycleIndex=-1
+bEnableGameAnalytics=False
+bRecordGameStatsFile=False
+bLogScoring=False
+bLogAIDefaults=False
+bLogAICount=False
+RequiredMobileInputConfigs=(GroupName="DebugGroup",RequireZoneNames=("DebugStickMoveZone","DebugStickLookZone","DebugLookZone"),bIsAttractModeGroup=False)
+bIsStandbyCheckingEnabled=False
+MaxPlayers=12
+GoalScore=0
+MaxLives=0
+TimeLimit=0
+StandbyRxCheatTime=0.000000
+StandbyTxCheatTime=0.000000
+BadPingThreshold=0
+PercentMissingForRxStandby=0.000000
+PercentMissingForTxStandby=0.000000
+PercentForBadPing=0.000000
+JoinInProgressStandbyWaitTime=0.000000
+DefaultGameType=KFGameContent.KFGameInfo_Survival
+AnimTreePoolSize=0
+
+[KFGameContent.KFGameInfo_Survival]
+bEnableGameAnalytics=true
+bRecordGameStatsFile=false
+MaxPlayers=6
+GameModes=(FriendlyName="Survival",ClassNameAndPath="KFGameContent.KFGameInfo_Survival",bSoloPlaySupported=True,DifficultyLevels=4,Lengths=4,LocalizeID=0)
+GameModes=(FriendlyName="Weekly",ClassNameAndPath="KFGameContent.KFGameInfo_WeeklySurvival",bSoloPlaySupported=True,DifficultyLevels=0,Lengths=0,LocalizeID=1)
+GameModes=(FriendlyName="Versus",ClassNameAndPath="KFGameContent.KFGameInfo_VersusSurvival",bSoloPlaySupported=False,DifficultyLevels=0,Lengths=0,LocalizeID=2)
+GameModes=(FriendlyName="Endless",ClassNameAndPath="KFGameContent.KFGameInfo_Endless",bSoloPlaySupported=True,DifficultyLevels=4,Lengths=0,LocalizeID=3)
+bWaitForNetPlayers=True
+bEnableMapObjectives=True
+bLogScoring=False
+bLogAIDefaults=False
+bLogAICount=False
+MinNetPlayers=1
+EndOfGameDelay=15
+ServerExpirationForKillWhenEmpty=120.000000
+RequiredMobileInputConfigs=(GroupName="DebugGroup",RequireZoneNames=("DebugStickMoveZone","DebugStickLookZone","DebugLookZone"),bIsAttractModeGroup=False)
+bIsStandbyCheckingEnabled=False
+GoalScore=0
+MaxLives=0
+TimeLimit=0
+StandbyRxCheatTime=0.000000
+StandbyTxCheatTime=0.000000
+BadPingThreshold=0
+PercentMissingForRxStandby=0.000000
+PercentMissingForTxStandby=0.000000
+PercentForBadPing=0.000000
+JoinInProgressStandbyWaitTime=0.000000
+DefaultGameType=KFGameContent.KFGameInfo_Survival
+AnimTreePoolSize=0
+
+[KFGameContent.KFGameInfo_WeeklySurvival]
+bEnableGameAnalytics=true
+bRecordGameStatsFile=false
+MaxPlayers=6
+bEnableDevAnalytics=true
+GameModes=(FriendlyName="Survival",ClassNameAndPath="KFGameContent.KFGameInfo_Survival",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=4,LocalizeID=0)
+GameModes=(FriendlyName="Weekly",ClassNameAndPath="KFGameContent.KFGameInfo_WeeklySurvival",bSoloPlaySupported=true,DifficultyLevels=0,Lengths=0,LocalizeID=1)
+GameModes=(FriendlyName="Versus",ClassNameAndPath="KFGameContent.KFGameInfo_VersusSurvival",bSoloPlaySupported=false,DifficultyLevels=0,Lengths=0,LocalizeID=2)
+GameModes=(FriendlyName="Endless",ClassNameAndPath="KFGameContent.KFGameInfo_Endless",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=0,LocalizeID=3)
+
+[KFGameContent.KFGameInfo_VersusSurvival]
+bEnableGameAnalytics=true
+bRecordGameStatsFile=false
+MinNetPlayers=2
+bTeamBalanceEnabled=true
+MaxPlayers=12
+TimeUntilNextRound=30
+bEnableMapObjectives=false
+bEnableDevAnalytics=true
+ScoreRadius=1000.0
+GameModes=(FriendlyName="Survival",ClassNameAndPath="KFGameContent.KFGameInfo_Survival",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=4,LocalizeID=0)
+GameModes=(FriendlyName="Weekly",ClassNameAndPath="KFGameContent.KFGameInfo_WeeklySurvival",bSoloPlaySupported=true,DifficultyLevels=0,Lengths=0,LocalizeID=1)
+GameModes=(FriendlyName="Versus",ClassNameAndPath="KFGameContent.KFGameInfo_VersusSurvival",bSoloPlaySupported=false,DifficultyLevels=0,Lengths=0,LocalizeID=2)
+GameModes=(FriendlyName="Endless",ClassNameAndPath="KFGameContent.KFGameInfo_Endless",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=0,LocalizeID=3)
+
+[KFGameContent.KFGameInfo_Endless]
+bEnableGameAnalytics=true
+bEnableGameStatsFile=false
+MaxPlayers=6
+GameModes=(FriendlyName="Survival",ClassNameAndPath="KFGameContent.KFGameInfo_Survival",bSoloPlaySupported=True,DifficultyLevels=4,Lengths=4,LocalizeID=0)
+GameModes=(FriendlyName="Weekly",ClassNameAndPath="KFGameContent.KFGameInfo_WeeklySurvival",bSoloPlaySupported=True,DifficultyLevels=0,Lengths=0,LocalizeID=1)
+GameModes=(FriendlyName="Versus",ClassNameAndPath="KFGameContent.KFGameInfo_VersusSurvival",bSoloPlaySupported=False,DifficultyLevels=0,Lengths=0,LocalizeID=2)
+GameModes=(FriendlyName="Endless",ClassNameAndPath="KFGameContent.KFGameInfo_Endless",bSoloPlaySupported=True,DifficultyLevels=4,Lengths=0,LocalizeID=3)
+bWaitForNetPlayers=True
+bEnableMapObjectives=True
+bRecordGameStatsFile=False
+bLogScoring=False
+bLogAIDefaults=False
+bLogAICount=False
+MinNetPlayers=1
+EndOfGameDelay=15
+ServerExpirationForKillWhenEmpty=120.000000
+RequiredMobileInputConfigs=(GroupName="DebugGroup",RequireZoneNames=("DebugStickMoveZone","DebugStickLookZone","DebugLookZone"),bIsAttractModeGroup=False)
+bIsStandbyCheckingEnabled=False
+GoalScore=0
+MaxLives=0
+TimeLimit=0
+StandbyRxCheatTime=0.000000
+StandbyTxCheatTime=0.000000
+BadPingThreshold=0
+PercentMissingForRxStandby=0.000000
+PercentMissingForTxStandby=0.000000
+PercentForBadPing=0.000000
+JoinInProgressStandbyWaitTime=0.000000
+DefaultGameType=KFGameContent.KFGameInfo_Survival
+AnimTreePoolSize=0
+
+[KFGame.KFCheatManager]
+DebugCameraControllerClassName=KFGame.KFDebugCameraController
+
+[KFGame.KFAIDirector]
+bShowAINames=false
+bDebugAllAI=false
+bLoadDebugPackageResourcesAtStart=false
+AiDebugScreenLargeFontName=AI_Debug_Helpers.Font_Large
+DebugIsSprintingIconName=AI_Debug_Helpers.DebugIsSprintingIcon
+DebugIsWalkingIconName=AI_Debug_Helpers.DebugIsWalkingIcon
+
+[KFGame.KFDoorGraph]
+bAfterBuildWriteOutGraph=true
+DoorGraphEdgeDebugDisplayColor=(R=0,G=255,B=0,A=255)
+
+[KFGame.KFDoorVertex]
+OffsetUnoccupiedLineDebugDisplayColor=(R=0,G=0,B=255,A=255)
+OffsetOccupiedLineDebugDisplayColor=(R=14,G=162,B=247,A=255)
+Offset2DoorLineDebugDisplayColor=(R=146,G=14,B=247,A=255)
+RegisteredCtrlTextDebugDisplayColor=(R=252,G=244,B=7,A=255)
+DoorActorNameTextDebugDisplayColor=(R=253,G=253,B=250,A=255)
+DoorActorNavLocLeftDebugDisplayColor=(R=255,G=0,B=0,A=255)
+DoorActorNavLocRightDebugDisplayColor=(R=0,G=255,B=0,A=255)
+bShowDoorActorNameText=true
+DoorVertexOffsetCrossSize=20
+DoorVertexOffsetNameOfOccupierSize=40
+DoorVertexShowOffsetCosOfAngle=0.76
+
+[KFGame.KFAiDestructibleInterActionBehavior]
+MaxNumberOfBumpsBeforeAttacking=5
+
+[KFGame.KFScout]
+bReplacePathNodesWithKFPathNodes=false
+bDebugReplacePathNodes=false
+
+[KFGame.KFPlayerReplicationInfo]
+ActivePerkIndex=255
+StoredCharIndex=0
+
+[KFGame.KFPerk]
+bLogPerk=false
+
+[KFGame.KFPerk_Commando]
+bOverrideCloud=false
+Level=0
+Build=0
+
+[KFGame.KFPerk_Berserker]
+bOverrideCloud=false
+Level=0
+Build=0
+
+[KFGame.KFPerk_Support]
+bOverrideCloud=false
+Level=0
+Build=0
+
+[KFGame.KFWeap_FlameBase]
+bArePilotLightsAllowed=True
+
+[KFGame.KFWeapAttach_FlameBase]
+bArePilotLightsAllowed=True
+
+[Engine.GameReplicationInfo]
+ServerName=$[HostName]
+ShortName=KFServer
+
+[KFGame.KFGameEngine]
+MasterVolumeMultiplier=100
+DialogVolumeMultiplier=100
+MusicVolumeMultiplier=50
+SFxVolumeMultiplier=100
+BattleChatterIndex=0
+GammaMultiplier=0.68
+bMusicVocalsEnabled=false
+bMinimalChatter=false
+bEnableAdvDebugLines=false
+bMuteOnLossOfFocus=True
+bShowCrossHair=false
+FOVOptionsPercentageValue=1.000000
+GoreLevel=2
+bShowWelderInInv=False
+bUseAltAimOnDual=False
+bAntiMotionSickness=False
+bEnableNative4k=False
+ServerActors=IpDrv.WebServer
+bClearAnimSetLinkupCachesOnLoadMap=False
+bEnableSecondaryDisplay=False
+bEnableSecondaryViewport=False
+MaxDeltaTime=0.000000
+LocalPlayerClassName=Engine.LocalPlayer
+bUseBackgroundLevelStreaming=True
+bSubtitlesEnabled=True
+bSubtitlesForcedOff=False
+bSmoothFrameRate=True
+bCheckForMultiplePawnsSpawnedInAFrame=False
+bForceStaticTerrain=False
+bForceCPUSkinning=False
+bUsePostProcessEffects=False
+bOnScreenKismetWarnings=True
+bEnableKismetLogging=False
+bAllowMatureLanguage=False
+bPauseOnLossOfFocus=False
+DefaultPostProcessName=PP_KFPostProcess.KFCustomPostProcessChain_1
+ThumbnailSkeletalMeshPostProcessName=EngineMaterials.DefaultThumbnailPostProcess
+ThumbnailParticleSystemPostProcessName=EngineMaterials.DefaultThumbnailPostProcess
+ThumbnailMaterialPostProcessName=EngineMaterials.DefaultThumbnailPostProcess
+DefaultUIScenePostProcessName=EngineMaterials.DefaultUIPostProcess
+TimeBetweenPurgingPendingKillObjects=60.000000
+MaxSmoothedFrameRate=62.000000
+MinSmoothedFrameRate=22.000000
+NumPawnsAllowedToBeSpawnedInAFrame=2
+ScoutClassName=KFGame.KFScout
+MeshLODRange=0.000000
+CameraRotationThreshold=45.000000
+CameraTranslationThreshold=10000.000000
+PrimitiveProbablyVisibleTime=8.000000
+LightProbablyVisibleTime=8.000000
+PercentUnoccludedRequeries=0.125000
+MaxOcclusionPixelsFraction=0.100000
+MaxFluidNumVerts=1048576
+FluidSimulationTimeLimit=30.000000
+MaxParticleResize=0
+MaxParticleResizeWarn=0
+MaxParticleVertexMemory=131972
+BeginUPTryCount=200000
+
+[KFGame.SprayActor]
+bAllowSprayLights=True
+
+[KFGame.KFUIDataStore_GameResource]
+ElementProviderTypes=(ProviderTag="GameTypes",ProviderClassName="KFGame.KFGameInfoSummary")
+ElementProviderTypes=(ProviderTag="Maps",ProviderClassName="KFGame.KFMapSummary")
+ElementProviderTypes=(ProviderTag="Mutators",ProviderClassName="KFGame.KFMutatorSummary")
+
+[KF-Airship KFMapSummary]
+MapName=KF-Airship
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Airship
+
+[KF-BioticsLab KFMapSummary]
+MapName=KF-BioticsLab
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_BioticsLab
+
+[KF-BlackForest KFMapSummary]
+MapName=KF-BlackForest
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_BlackForest
+
+[KF-BurningParis KFMapSummary]
+MapName=KF-BurningParis
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Paris
+
+[KF-Catacombs KFMapSummary]
+MapName=KF-Catacombs
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Catacombs
+
+[KF-ContainmentStation KFMapSummary]
+MapName=KF-ContainmentStation
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_ContainmentStation
+
+[KF-DieSector KFMapSummary]
+MapName=KF-DieSector
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_DieSector
+
+[KF-EvacuationPoint KFMapSummary]
+MapName=KF-EvacuationPoint
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Evac
+
+[KF-Farmhouse KFMapSummary]
+MapName=KF-Farmhouse
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Farmhouse
+
+[KF-HostileGrounds KFMapSummary]
+MapName=KF-HostileGrounds
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_HostileGrounds
+
+[KF-InfernalRealm KFMapSummary]
+MapName=KF-InfernalRealm
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_InfernalRealm
+
+[KF-KrampusLair KFMapSummary]
+MapName=KF-KrampusLair
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_KrampusLair
+
+[KF-Lockdown KFMapSummary]
+MapName=KF-Lockdown
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Lockdown
+
+[KF-Monsterball KFMapSummary]
+MapName=KF-MonsterBall
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_MonsterBall
+
+[KF-Nightmare KFMapSummary]
+MapName=KF-Nightmare
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Nightmare
+
+[KF-Nuked KFMapSummary]
+MapName=KF-Nuked
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Nuked
+
+[KF-Outpost KFMapSummary]
+MapName=KF-Outpost
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_OutPost
+
+[KF-PowerCore_Holdout KFMapSummary]
+MapName=KF-PowerCore_Holdout
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_PowerCore
+
+[KF-Prison KFMapSummary]
+MapName=KF-Prison
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Prison
+
+[KF-SantasWorkshop KFMapSummary]
+MapName=KF-SantasWorkshop
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_SantasWorkshop
+
+[KF-ShoppingSpree KFMapSummary]
+MapName=KF-ShoppingSpree
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_ShoppingSpree
+
+[KF-TheDescent KFMapSummary]
+MapName=KF-TheDescent
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Descent
+
+[KF-TragicKingdom KFMapSummary]
+MapName=KF-TragicKingdom
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_TragicKingdom
+
+[KF-VolterManor KFMapSummary]
+MapName=KF-VolterManor
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.KF2_MapPreview_Manor
+
+[KF-ZedLanding KFMapSummary]
+MapName=KF-ZedLanding
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Zedlanding
+
+[KF-Default KFMapSummary]
+MapName=KF-Default
+MapAssociation=0
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Placeholder
+
+[Boom KFWeeklyOutBreakInformation]
+Index=0
+IconPath=WeeklyObjective_UI.UI_Weeklies_Boom
+RewardIDs[0]=-1
+
+[Zombies KFWeeklyOutBreakInformation]
+Index=1
+IconPath=WeeklyObjective_UI.UI_Weeklies_Zombies
+RewardIDs[0]=-1
+
+[ShrinkyDinky KFWeeklyOutBreakInformation]
+Index=2
+IconPath=WeeklyObjective_UI.UI_Weeklies_TinyTerror
+RewardIDs[0]=-1
+
+[BigHead KFWeeklyOutBreakInformation]
+Index=3
+IconPath=WeeklyObjective_UI.UI_Weeklies_Bighead
+RewardIDs[0]=-1
+
+[PoundAmmonium KFWeeklyOutBreakInformation]
+Index=4
+IconPath=WeeklyObjective_UI.UI_Weeklies_Poundamonium
+RewardIDs[0]=-1
+
+[DeathBalloons KFWeeklyOutBreakInformation]
+Index=5
+IconPath=WeeklyObjective_UI.UI_Weeklies_DeathBalloons
+RewardIDs[0]=-1
+
+[ZedTime KFWeeklyOutBreakInformation]
+Index=6
+IconPath=WeeklyObjective_UI.UI_Weeklies_Zedtime
+RewardIDs[0]=-1
+
+[BeefCake KFWeeklyOutBreakInformation]
+Index=7
+IconPath=WeeklyObjective_UI.UI_Weeklies_Beefcake
+RewardIDs[0]=-1
+
+[Survival KFGameInfoSummary]
+ClassName=KFGameContent.KFGameInfo_Survival
+MapPrefix=KF
+
+[WeeklySurvival KFGameInfoSummary]
+ClassName=KFGameContent.KFGameInfo_WeeklySurvival
+MapPrefix=KF
+
+[VersusSurvival KFGameInfoSummary]
+ClassName=KFGameContent.KFGameInfo_VersusSurvival
+MapPrefix=KF
+
+[Endless KFGameInfoSummary]
+ClassName=KFGameContent.KFGameInfo_Endless
+MapPrefix=KF
+
+[KFGame.KFPawn_Monster]
+bCanLeap=true
+
+[KFGame.KFMuzzleFlash]
+ShellEjectLifetime=10.f
+
+[IniVersion]
+0=1551391853.000000
+1=1551392556.000000
+2=1551391854.000000
+3=1551392556.000000
+
+[KFGame.KFAccessControl]
+bSilentAdminLogin=False</template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>0</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:Encoding" value="0" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2019-03-01 23:25:54" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2019-03-01 23:40:45" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
     <hide_read_failure>0</hide_read_failure>
   </tc_game_config_files>
@@ -335,6 +1086,25 @@ IncludePath=/KFGame/Web
   &lt;add key="Style" value="" type="System.String,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_ON" value="2019-02-28 21:01:52" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_links>
+  <tc_game_links>
+    <game_id>109</game_id>
+    <link_id>3</link_id>
+    <mod_id>0</mod_id>
+    <url>http:\\$[Service.IpAddress]:$[Service.CustomPort1]</url>
+    <display_name>Web Admin</display_name>
+    <description>Server Manager Dashboard</description>
+    <icon>https://bealsmmohaven.com/modder/tca/img/kf2.png</icon>
+    <new_page>1</new_page>
+    <inside_panel>0</inside_panel>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="Style" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2019-03-01 23:08:26" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2019-03-01 23:15:09" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
   </tc_game_links>
   <tc_game_permissions>
