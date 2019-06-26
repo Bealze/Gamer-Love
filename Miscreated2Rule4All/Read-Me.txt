@@ -1,0 +1,12 @@
+Make Changes to
+
+1:Mod_publisher
+2:mod.vdf
+3: Unpack steamcmd.zip into folder provided
+
+
+
+**Reminder you will need to set the install directory's in files file sections**
+
+
+when done and have mods simply click mod publish.

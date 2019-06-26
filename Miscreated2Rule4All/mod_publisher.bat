@@ -1,0 +1,1 @@
+\\Miscreated2Rule4All\stmcmd\steamcmd.exe +login <changeme> <changeme> +workshop_build_item \\Miscreated2Rule4All\mod.vdf +quit
