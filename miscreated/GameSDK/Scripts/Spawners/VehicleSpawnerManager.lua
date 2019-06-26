@@ -23,7 +23,7 @@ VehicleSpawnerManager = {
 			{
 				{ class = "armored_truck_army", contents = "RandomPoliceSedanContents" },
 			},
-			initialMinVehicles = 5,
+			initialMinVehicles = 6,
 			abandonedTimer = 17280000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -38,7 +38,7 @@ VehicleSpawnerManager = {
 			{
 				{ class = "armored_truck_police", contents = "RandomPoliceSedanContents" },
 			},
-			initialMinVehicles = 5,
+			initialMinVehicles = 6,
 			abandonedTimer = 17280000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -46,15 +46,30 @@ VehicleSpawnerManager = {
 		},
 
 		------------------------------------------------
-		------------------------------------------------
 		{
 			category = "bicycle",
 			classes =
 			{
-				{ class = "bicycle" },
+				{
+					-- All bicycle spawners now just spawn a quadbike
+					class = "bicycle",
+					skins =
+					{
+						-- If the total doesn't equal 100% then the remainder will spawn with the default skin
+						{ name = "Bicycle_Black", percent = 11.0 },
+						{ name = "Bicycle_Blue", percent = 11.0 },
+						{ name = "Bicycle_Green", percent = 11.0 },
+						{ name = "Bicycle_Orange", percent = 12.0 }, -- Default??
+						{ name = "Bicycle_Pink", percent = 11.0 },
+						{ name = "Bicycle_Purple", percent = 11.0 },
+						{ name = "Bicycle_Red", percent = 11.0 },
+						{ name = "Bicycle_White", percent = 11.0 },
+						{ name = "Bicycle_Yellow", percent = 11.0 },
+					},
+				},
 			},
 			initialMinVehicles = 10,
-			abandonedTimer = 2160000,  -- six hours
+			abandonedTimer = 21600,  -- six hours
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -66,16 +81,31 @@ VehicleSpawnerManager = {
 			category = "dirtbike",
 			classes =
 			{
-				{ class = "dirtbike" },
+				{
+					-- All dirtbike spawners now just spawn a quadbike
+					class = "dirtbike",
+					skins =
+					{
+						-- If the total doesn't equal 100% then the remainder will spawn with the default skin
+						{ name = "Dirtbike_Black", percent = 11.0 },
+						{ name = "Dirtbike_Blue", percent = 11.0 },
+						{ name = "Dirtbike_Green", percent = 11.0 },
+						{ name = "Dirtbike_Orange", percent = 12.0 }, -- Default??
+						{ name = "Dirtbike_Pink", percent = 11.0 },
+						{ name = "Dirtbike_Purple", percent = 11.0 },
+						{ name = "Dirtbike_Red", percent = 11.0 },
+						{ name = "Dirtbike_White", percent = 11.0 },
+						{ name = "Dirtbike_Yellow", percent = 11.0 },
+					},
+				},
 			},
 			initialMinVehicles = 4,
-			abandonedTimer = 17280000,  -- two days
+			abandonedTimer = 21600,  -- six hours
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
 		},
 
-		------------------------------------------------
 		------------------------------------------------
 		{
 			category = "dune_buggy",
@@ -188,7 +218,7 @@ VehicleSpawnerManager = {
 			{
 				{ class = "quadbike" },
 			},
-			initialMinVehicles = 5,
+			initialMinVehicles = 10,
 			abandonedTimer = 17280000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -233,7 +263,7 @@ VehicleSpawnerManager = {
 			{
 				{ class = "sedan_police", contents = "RandomPoliceSedanContents" },
 			},
-			initialMinVehicles = 6,
+			initialMinVehicles = 8,
 			abandonedTimer = 17280000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -250,7 +280,7 @@ VehicleSpawnerManager = {
 				{ class = "sedan_taxi_engoa", contents = "RandomF100TruckContents" },
 				{ class = "sedan_taxi_fullout", contents = "RandomF100TruckContents" },
 			},
-			initialMinVehicles = 5,
+			initialMinVehicles = 6,
 			abandonedTimer = 17280000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -280,7 +310,7 @@ VehicleSpawnerManager = {
 					},
 				},
 			},
-			initialMinVehicles = 5,
+			initialMinVehicles = 6,
 			abandonedTimer = 17280000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -295,7 +325,7 @@ VehicleSpawnerManager = {
 			{
 				{ class = "towcar", contents = "RandomTowcarContents" },
 			},
-			initialMinVehicles = 2,
+			initialMinVehicles = 4,
 			abandonedTimer = 17280000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
