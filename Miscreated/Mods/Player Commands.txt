@@ -1,9 +1,0 @@
-Commands:
-
-!mirror (will repeat text back to you in the chat box) 
-example: !mirror Hello World
-!joinf # (force joins a faction without needing server restart. replace # with 3-7, matching faction numbers in hosting.cfg) 
-example: !joinf 4
-!mypos (Will give you your current Coordinates  in the chat box.)
-example: !mypos
-Example Output: 4368.2 1298.1 21.1
