@@ -1,0 +1,1404 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<recipes>
+<guide name="network_access_code" id="30">
+	<cats>
+		<cat name="Iron Sons Network">
+			<subcats>
+				<subcat name="1. Weapons">
+					<types>
+		
+						<type name="1. Handguns">
+							<items>
+	
+<item class="AP85" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="ColtPython" time="1">
+<materials>
+<material class="AmcoinLedger" count="13" />
+</materials>
+</item>
+
+<item class="G18Pistol" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="M9A1" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="Makarov" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="P350" time="1">
+<materials>
+<material class="AmcoinLedger" count="15" />
+</materials>
+</item>
+
+<item class="PX4" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="hk45" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="m1911a1" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="ruger22" time="1">
+<materials>
+<material class="AmcoinLedger" count="8" />
+</materials>
+</item>
+
+	</items>
+</type>
+
+
+<type name="2. Civilian Rifles">
+	<items>
+	
+<item class="AT15" time="1">
+<materials>
+<material class="AmcoinLedger" count="25" />
+</materials>
+</item>
+
+<item class="Bulldog" time="1">
+<materials>
+<material class="AmcoinLedger" count="20" />
+</materials>
+</item>
+
+<item class="Model70" time="1">
+<materials>
+<material class="AmcoinLedger" count="15" />
+</materials>
+</item>
+
+<item class="Rem700" time="1">
+<materials>
+<material class="AmcoinLedger" count="18" />
+</materials>
+</item>
+
+<item class="Rem870" time="1">
+<materials>
+<material class="AmcoinLedger" count="20" />
+</materials>
+</item>
+
+<item class="Sako_85" time="1">
+<materials>
+<material class="AmcoinLedger" count="20" />
+</materials>
+</item>
+
+<item class="TranquilizerGun" time="1">
+<materials>
+<material class="AmcoinLedger" count="8" />
+</materials>
+</item>
+
+<item class="Wasteland22" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="RecurveBow" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>
+
+<item class="Crossbow" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>
+
+</items>
+</type>
+
+<type name="3. Military Rifles">
+<items>
+	
+<item class="AA12" time="1">
+<materials>
+<material class="AmcoinLedger" count="35" />
+</materials>
+</item>
+
+<item class="ACAW" time="1">
+<materials>
+<material class="AmcoinLedger" count="35" />
+</materials>
+</item>
+
+<item class="AK74U" time="1">
+<materials>
+<material class="AmcoinLedger" count="35" />
+</materials>
+</item>
+
+<item class="AKM" time="1">
+<materials>
+<material class="AmcoinLedger" count="38" />
+</materials>
+</item>
+
+<item class="AUMP45" time="1">
+<materials>
+<material class="AmcoinLedger" count="30" />
+</materials>
+</item>
+
+<item class="CX4Storm" time="1">
+<materials>
+<material class="AmcoinLedger" count="28" />
+</materials>
+</item>
+
+<item class="KrissV" time="1">
+<materials>
+<material class="AmcoinLedger" count="28" />
+</materials>
+</item>
+
+<item class="M16" time="1">
+<materials>
+<material class="AmcoinLedger" count="30" />
+</materials>
+</item>
+
+<item class="M249" time="1">
+<materials>
+<material class="AmcoinLedger" count="45" />
+</materials>
+</item>
+
+<item class="M40A5" time="1">
+<materials>
+<material class="AmcoinLedger" count="35" />
+</materials>
+</item>
+
+<item class="MP5" time="1">
+<materials>
+<material class="AmcoinLedger" count="25" />
+</materials>
+</item>
+
+<item class="Mk18" time="1">
+<materials>
+<material class="AmcoinLedger" count="28" />
+</materials>
+</item>
+
+<item class="R90" time="1">
+<materials>
+<material class="AmcoinLedger" count="30" />
+</materials>
+</item>
+
+<item class="Shotgun870Tactical" time="1">
+<materials>
+<material class="AmcoinLedger" count="25" />
+</materials>
+</item>
+
+</items>
+</type>
+
+<type name="4. Attachments" >
+<items>
+	
+<item class="HuntingScope" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="OpticScope" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="ReflexSight" time="1">
+<materials>
+<material class="AmcoinLedger" count="8" />
+</materials>
+</item>
+
+<item class="T1Micro" time="1">
+<materials>
+<material class="AmcoinLedger" count="8" />
+</materials>
+</item>
+
+<item class="OpticScopeBow" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>
+
+<item class="ReflexSightBow" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>
+
+<item class="LaserSight" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>
+
+<item class="LaserSightBlue" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>
+
+<item class="LaserSightGreen" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>
+
+<item class="RifleSilencer" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="BayonetRifle" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>
+	
+<item class="ForegripVertical" time="1">
+<materials>
+<material class="AmcoinLedger" count="8" />
+</materials>
+</item>
+
+<item class="FlashlightRifle" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>
+
+<item class="FlashlightPistol" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>
+
+<item class="PistolSilencer" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+</items>
+</type>
+
+<type name="5. Magazines" >
+								<items>
+	
+									<item class="10mmx15" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="3" />
+										</materials>
+									</item>
+
+									<item class="10mmx30" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="5" />
+										</materials>
+									</item>
+
+									<item class="12Gaugex8_Beanbag_AA12" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="3" />
+										</materials>
+									</item>
+
+									<item class="12Gaugex8_Pellet_AA12" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="3" />
+										</materials>
+									</item>
+
+									<item class="12Gaugex8_Slug_AA12" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="3" />
+										</materials>
+									</item>
+
+									<item class="22x10_ruger" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="3" />
+										</materials>
+									</item>
+
+									<item class="357x14" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="3" />
+										</materials>
+									</item>
+
+									<item class="acp_45x10_hk" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="5" />
+										</materials>
+									</item>
+
+									<item class="acp_45x7" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="3" />
+										</materials>
+									</item>
+
+									<item class="acp_45x20" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="3" />
+										</materials>
+									</item>
+
+									<item class="acp_45x30" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="5" />
+										</materials>
+									</item>
+
+									<item class="545x30" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="3" />
+										</materials>
+									</item>
+
+									<item class="556x100" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="8" />
+										</materials>
+									</item>
+
+									<item class="57x50" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="5" />
+										</materials>
+									</item>
+
+									<item class="762x30" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="5" />
+										</materials>
+									</item>
+
+									<item class="762x5" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="3" />
+										</materials>
+									</item>
+
+									<item class="M40x5" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="3" />
+										</materials>
+									</item>
+
+									<item class="9mmx10" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="3" />
+										</materials>
+									</item>
+
+									<item class="9mmx10_makarov" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="3" />
+										</materials>
+									</item>
+
+									<item class="9mmx15_m9a1" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="3" />
+										</materials>
+									</item>
+
+									<item class="9mmx19_ap85" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="3" />
+										</materials>
+									</item>
+
+									<item class="STANAGx30" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="5" />
+										</materials>
+									</item>
+
+									<item class="Arrowx8" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="2" />
+										</materials>
+									</item>
+
+									<item class="Boltx5_0000" time="1">
+										<materials>
+											<material class="AmcoinLedger" count="2" />
+										</materials>
+									</item>
+
+								</items>
+							</type>
+
+							<type name="6. Ammunitions" >
+<items>
+	
+<item class="Pile_10mm" time="1" amount="30">
+<materials>
+<material class="AmcoinLedger" count="4" />
+</materials>
+</item>
+
+<item class="Pile_22" time="1" amount="30">
+<materials>
+<material class="AmcoinLedger" count="4" />
+</materials>
+</item>
+
+<item class="Pile_223" time="1" amount="10">
+<materials>
+<material class="AmcoinLedger" count="4" />
+</materials>
+</item>
+
+<item class="Pile_308" time="1" amount="10">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>
+
+<item class="Pile_357" time="1" amount="10">
+<materials>
+<material class="AmcoinLedger" count="5"/>
+</materials>
+</item>
+
+<item class="Pile_545x39" time="1" amount="30">
+<materials>
+<material class="AmcoinLedger" count="4" />
+</materials>
+</item>
+
+<item class="Pile_556x45" time="1" amount="30">
+<materials>
+<material class="AmcoinLedger" count="4" />
+</materials>
+</item>
+
+<item class="Pile_57x28" time="1" amount="50">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>
+
+<item class="Pile_762x39" time="1" amount="30">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>
+
+<item class="Pile_762x51" time="1" amount="5">
+<materials>
+<material class="AmcoinLedger" count="3" />
+</materials>
+</item>
+
+<item class="Pile_45ACP" time="1" amount="30">
+<materials>
+<material class="AmcoinLedger" count="3" />
+</materials>
+</item>
+
+<item class="Pile_9mm" time="1" amount="30">
+<materials>
+<material class="AmcoinLedger" count="3" />
+</materials>
+</item>
+
+<item class="Pile_12GaugePellet" time="1" amount="10">
+<materials>
+<material class="AmcoinLedger" count="3" />
+</materials>
+</item>
+
+<item class="Pile_12GaugeSlug" time="1" amount="10">
+<materials>
+<material class="AmcoinLedger" count="3" />
+</materials>
+</item>
+
+</items>
+</type>
+
+<type name="7. Throwables" >
+<items>
+	
+<item class="C4TimedPickup" time="1">
+<materials>
+<material class="AmcoinLedger" count="40" />
+</materials>
+</item>
+
+<item class="FlashbangPickup" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>
+
+<item class="GrenadeGasNervePickup" time="1">
+<materials>
+<material class="AmcoinLedger" count="8" />
+</materials>
+</item>
+
+<item class="GrenadeGasSleepPickup" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>
+
+<item class="GrenadeGasTearPickup" time="1">
+<materials>
+<material class="AmcoinLedger" count="3" />
+</materials>
+</item>
+
+<item class="GrenadePickup" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="GrenadeSmokeWhitePickup" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>
+
+<item class="ChemlightWhitePickup" time="1">
+<materials>
+<material class="AmcoinLedger" count="1" />
+</materials>
+</item>
+
+</items>
+</type>
+</types>
+</subcat>
+
+<subcat name="2. Protections">
+<types>
+<type name="1. Protection Vests" >
+	<items>
+		
+<item class="PoliceVestBlack" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="PoliceVestBlue" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+	</items>
+</type>
+
+<type name="2. Military Vests">
+	<items>
+		
+<item class="FlakVestGreen" time="1">
+<materials>
+<material class="AmcoinLedger" count="15" />
+</materials>
+</item>
+
+<item class="FlakVestGreenCamo1" time="1">
+<materials>
+<material class="AmcoinLedger" count="15" />
+</materials>
+</item>
+
+<item class="FlakVestTan" time="1">
+<materials>
+<material class="AmcoinLedger" count="15" />
+</materials>
+</item>
+
+<item class="FlakVestTanCamo1" time="1">
+<materials>
+<material class="AmcoinLedger" count="15" />
+</materials>
+</item>
+
+	</items>
+</type>
+
+<type name="3. Ballistic Helmets">
+	<items>
+		
+<item class="MilitaryHelmetGreen" time="1">
+<materials>
+<material class="AmcoinLedger" count="8" />
+</materials>
+</item>
+
+<item class="MilitaryHelmetTan" time="1">
+<materials>
+<material class="AmcoinLedger" count="8" />
+</materials>
+</item>
+
+<item class="MilitaryHelmetUrbanCamo2" time="1">
+<materials>
+<material class="AmcoinLedger" count="8" />
+</materials>
+</item>
+
+<item class="SwatHelmet" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+</items>
+</type>
+
+
+<type name="4. Ghillie Suits">
+	<items>
+		
+<item class="GhillieSuit1" time="1">
+<materials>
+<material class="AmcoinLedger" count="25" />
+</materials>
+</item>
+
+<item class="GhillieSuit2" time="1">
+<materials>
+<material class="AmcoinLedger" count="25" />
+</materials>
+</item>
+
+<item class="GhillieSuit3" time="1">
+<materials>
+<material class="AmcoinLedger" count="25" />
+</materials>
+</item>
+
+<item class="GhillieSuit4" time="1">
+<materials>
+<material class="AmcoinLedger" count="25" />
+</materials>
+</item>
+
+<item class="GhillieHood1" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="GhillieHood2" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="GhillieHood3" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="GhillieHood4" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+</items>
+</type>
+
+<type name="5. Hazmat Suits">
+	<items>
+		
+<item class="HazmatSuitBlue" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="HazmatSuitGreen" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="HazmatSuitOrange" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="HazmatSuitPink" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="HazmatSuitWhite" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="HazmatSuitYellow" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>
+
+<item class="HazmatMask" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>
+
+<item class="GasCanisterPack" time="1">
+<materials>
+<material class="AmcoinLedger" count="15" />
+</materials>
+</item>
+		
+</items>
+</type>
+
+<type name="6. Masks">
+	<items>
+	
+<item class="HazmatMask" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>
+
+<item class="DustMask" time="1">
+<materials>
+<material class="AmcoinLedger" count="1" />
+</materials>
+</item>
+
+<item class="GasMask" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>
+
+<item class="HeadSack" time="1">
+<materials>
+<material class="AmcoinLedger" count="1" />
+</materials>
+</item>
+
+<item class="DustMask" time="1">
+<materials>
+<material class="AmcoinLedger" count="1" />
+</materials>
+</item>
+
+<item class="HockeyMask" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>
+
+<item class="HockeyMaskDp" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>
+
+<item class="HockeyMaskDp" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>
+
+<item class="WeldersMask" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>
+
+	</items>
+</type>	
+</types>
+</subcat>
+
+<subcat name="3. Medicals">
+<types>
+<type name="1. Health">
+	<items>
+		
+<item class="AdvancedBandage" time="1">
+<materials>
+<material class="AmcoinLedger" count="3" />
+</materials>
+</item>
+
+<item class="AntibioticBandage" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>
+
+<item class="Bandage" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>
+		
+	</items>
+</type>
+
+<type name="2. Treatments">
+	<items>
+		
+<item class="AdrenalineSyringe" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>
+
+<item class="Antibiotics" time="1">
+<materials>
+<material class="AmcoinLedger" count="4" />
+</materials>
+</item>
+
+<item class="Aspirin" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>
+
+<item class="HeatPack" time="1">
+<materials>
+<material class="AmcoinLedger" count="3" />
+</materials>
+</item>
+</items>
+</type>
+
+<type name="3. Radiations">
+	<items>
+		
+<item class="AntiradiationPills" time="1">
+<materials>
+<material class="AmcoinLedger" count="4" />
+</materials>
+</item>
+
+<item class="PotassiumIodidePills" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>
+		
+</items>
+</type>
+
+</types>
+</subcat>
+
+<subcat name="4. Equipments">
+<types>
+<type name="1. Utilities">
+<items>
+
+<item class="Cb_radio" time="1">
+<materials>
+<material class="AmcoinLedger" count="4" />
+</materials>
+</item>
+
+<item class="CivCanteen01" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>
+	
+<item class="Headlamp" time="1">
+<materials>
+<material class="AmcoinLedger" count="4" />
+</materials>
+</item>
+
+<item class="HeadlampRed" time="1">
+<materials>
+<material class="AmcoinLedger" count="4" />
+</materials>
+</item>
+
+<item class="Flashlight" time="1">
+<materials>
+<material class="AmcoinLedger" count="1" />
+</materials>
+</item>
+
+<item class="MagliteSmall" time="1">
+<materials>
+<material class="AmcoinLedger" count="4" />
+</materials>
+</item>
+	
+<item class="Hammer" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="Hatchet" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="LugWrench" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="Pickaxe" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="Maglite" time="1">
+<materials>
+<material class="AmcoinLedger" count="6" />
+</materials>
+</item>	
+
+<item class="Squeegee" time="1">
+<materials>
+<material class="AmcoinLedger" count="1" />
+</materials>
+</item>	
+
+<item class="SurvivalKnife" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+</items>	
+</type>
+
+<type name="2. Repair Kits">
+<items>
+
+<item class="RK_Canvas" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="RK_Cloth" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="RK_Equipment" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="RK_Leather" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="RK_Teflon" time="1">
+<materials>
+<material class="AmcoinLedger" count="4" />
+</materials>
+</item>	
+
+</items>	
+</type>
+
+<type name="3. Paint Cans">
+<items>
+
+<item class="PaintCan_Aqua" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>	
+
+<item class="PaintCan_Black" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>	
+
+<item class="PaintCan_Blue" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>	
+
+<item class="PaintCan_Brown" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>	
+
+<item class="PaintCan_Gold" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>	
+
+<item class="PaintCan_Green" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>	
+
+<item class="PaintCan_Orange" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>	
+
+<item class="PaintCan_Pink" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>	
+
+<item class="PaintCan_Purple" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>	
+
+<item class="PaintCan_Red" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>	
+
+<item class="PaintCan_Silver" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>	
+
+<item class="PaintCan_White" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>	
+
+<item class="PaintCan_Yellow" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>	
+
+
+</items>	
+</type>
+
+<type name="5. Rarities">
+<items>
+
+<item class="BeardShaggy" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="ChristmasHat" time="1">
+<materials>
+<material class="AmcoinLedger" count="6" />
+</materials>
+</item>	
+
+<item class="FootballHelmetAmerica" time="1">
+<materials>
+<material class="AmcoinLedger" count="6" />
+</materials>
+</item>	
+
+<item class="FootballHelmetFabulous" time="1">
+<materials>
+<material class="AmcoinLedger" count="6" />
+</materials>
+</item>	
+
+<item class="FootballHelmetGold" time="1">
+<materials>
+<material class="AmcoinLedger" count="6" />
+</materials>
+</item>	
+
+<item class="HoodieSerk" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>	
+
+<item class="JackOLanternHelmet" time="1">
+<materials>
+<material class="AmcoinLedger" count="6" />
+</materials>
+</item>	
+
+<item class="PuffyJacketAmerica" time="1">
+<materials>
+<material class="AmcoinLedger" count="12" />
+</materials>
+</item>	
+
+<item class="PuffyJacketCanada" time="1">
+<materials>
+<material class="AmcoinLedger" count="12" />
+</materials>
+</item>	
+
+<item class="PuffyJacketEaster" time="1">
+<materials>
+<material class="AmcoinLedger" count="12" />
+</materials>
+</item>	
+
+<item class="PuffyJacketGold" time="1">
+<materials>
+<material class="AmcoinLedger" count="15" />
+</materials>
+</item>	
+
+<item class="gnome_bronze" time="1">
+<materials>
+<material class="AmcoinLedger" count="5" />
+</materials>
+</item>	
+
+<item class="gnome_silver" time="1">
+<materials>
+<material class="AmcoinLedger" count="10" />
+</materials>
+</item>	
+
+<item class="gnome_gold" time="1">
+<materials>
+<material class="AmcoinLedger" count="15" />
+</materials>
+</item>	
+
+</items>	
+</type>
+
+<type name="4. Guides">
+<items>
+
+<item class="guide_medical_bandages" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_powered_parts_1" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_tire_stacks" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_bridges_1" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_bridges_2" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_curves" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_gallows" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_gatehouse" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_ramps_1" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_ramps_2" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_roofs" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_stairs_1" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_stairs_2" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_storage" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_traps_1" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_traps_2" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_walkways_1" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_walkways_2" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_walls_1" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_walls_2" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_structures_wood_watchtower" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_traps_1" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_traps_2" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+<item class="guide_weapons_melee" time="1">
+<materials>
+<material class="AmcoinLedger" count="2" />
+</materials>
+</item>	
+
+</items>	
+</type>
+</types>
+</subcat>
+</subcats>
+</cat>
+</cats>
+</guide>
+</recipes>

@@ -1,0 +1,26 @@
+<item name="network_access_code" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.1"/>
+		<param name="display_name" value="Network Access Code"/>
+		<param name="description" value="Grants you the access of the Iron Sons Trading Network accessible from a towable kiosk."/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/props/amcoin_ledger/amcoin_ledger.cgf"/>
+	</geometry>
+
+	<usable>
+		<param name="action" value="guide"/>
+		<param name="param" value="30"/> <!-- the guide number from the Recipes.xml file -->
+		<param name="soundUsed" value="Play_book_page_turn"/>
+	</usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+	
+</item>
