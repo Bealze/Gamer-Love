@@ -1,0 +1,43 @@
+<recipes>
+  <guide name="default" id="0">
+	<cats>
+		<cat name="Baking">
+			<subcats>
+			<subcat name="Components">
+				<items>
+				<item class="Medcan_butter" time="1">
+					<materials>
+					<material class="medcan" />
+					<material class="butter" />
+					</materials>
+				</item>
+					<item class="cookie_dough" time="1">
+					<materials>
+					<material class="EggChicken" />
+					<material class="butter" />
+					<material class="Sugar_mix" />
+					<material class="SheetMetal" />
+					</materials>
+				</item>
+					<item class="Cannabis_dough" time="1">
+					<materials>
+					<material class="EggChicken" />
+					<material class="Medcan_butter" />
+					<material class="Sugar_mix" />
+					<material class="SheetMetal" />
+					</materials>
+				</item>
+					<item class="Pie" time="1">
+					<materials>
+					<material class="EggChicken" />
+					<material class="Berries" />
+					<material class="Pie_crust" />
+					</materials>
+				</item>
+				</items>
+			</subcat>
+			</subcats>
+		</cat>
+	</cats>
+  </guide>
+</recipes>

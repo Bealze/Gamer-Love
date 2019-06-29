@@ -1,0 +1,42 @@
+﻿<recipes>
+  <guide name="default" id="0">
+	<cats>
+		<cat name="Medical Cannabis">
+			<subcats>
+			<subcat name="Joints">
+				<items>
+					<item class="Joint_Heal" time="1">
+						<materials>
+						<material class="medcan" />
+						<material class="zipzap" />
+						</materials>
+					</item>
+					<item class="Joint_antibiotics" time="1">
+						<materials>
+						<material class="medcan" />
+						<material class="zipzap" />
+						</materials>
+					</item>
+					<item class="Joint_radiation" time="1">
+						<materials>
+						<material class="medcan" />
+						<material class="zipzap" />
+						</materials>
+					</item>
+				</items>
+			</subcat>
+			<subcat name="Papers">
+				<items>
+					<item class="zipzap" time="1">
+						<materials>
+						<material class="Thatch" />
+						<material class="Thatch" />
+						</materials>
+					</item>
+				</items>
+			</subcat>
+			</subcats>
+		</cat>
+	</cats>
+  </guide>
+</recipes>

@@ -1,0 +1,23 @@
+<item name="zipzap" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.1"/>
+		<param name="stack_size" value="10" />
+		<param name="display_name" value="ZipZap Papers"/>
+		<param name="description" value="ZipZap Cigarette papers"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/craftingMats/zipzap/zipzap.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+	<steam>
+	</steam>
+</item>

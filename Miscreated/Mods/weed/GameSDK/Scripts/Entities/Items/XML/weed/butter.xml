@@ -1,0 +1,23 @@
+<item name="butter" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.1"/>
+		<param name="stack_size" value="64" />
+		<param name="display_name" value="butter"/>
+		<param name="description" value="a stick of butter, used in baking"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/medcan/butter/butter.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+	<steam>
+	</steam>
+</item>

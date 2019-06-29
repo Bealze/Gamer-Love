@@ -1,0 +1,29 @@
+<item name="Cannabis_Cookies" class="Consumable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1.0"/>
+		<param name="stack_size" value="64"/>		
+		<param name="display_name" value="Cannabis_Cookies"/>
+		<param name="description" value="baked cannabis cookies"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="objects/medcan/sc/mcookies.cgf" material="objects/medcan/sc/mcookies_mtl.mtl"/>
+	</geometry>
+
+	<consumable>
+		<param name="cookable" value="1"/>
+		<param name="cookedItem" value="Cannabis_CookiesBurned"/>
+		<param name="cookedTime" value="60"/>
+		<param name="foodAmount" value="200"/>
+		<param name="soundConsumed" value="Play_food_soft_eat"/>
+	</consumable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

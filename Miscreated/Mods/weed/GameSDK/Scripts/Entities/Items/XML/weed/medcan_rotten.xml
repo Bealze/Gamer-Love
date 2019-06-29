@@ -1,0 +1,57 @@
+<item name="medcan_rotten" class="Consumable" category="any">
+
+	<params>
+		<param name="selectable" value="1"/>
+		<param name="mass" value="1.25"/>
+		<param name="stack_size" value="10" />		
+		<param name="display_name" value="Rotten Medical Cannabis"/>
+		<param name="description" value="a brick of Rotten Medical Cannabis. Can be used in crafting."/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/craftingMats/medcan/medcanrotten.cgf" material="Objects/craftingMats/medcan/medcanrotten.mtl"/>
+	</geometry>
+
+	<consumable>
+		<param name="poisonChance" value="44" />
+		<param name="torpidityAmount" value="10" />
+		<param name="staminaAmount" value="-10" />
+		<param name="foodAmount" value="50" />
+		<param name="drinkAmount" value="5" />
+		<param name="soundConsumed" value="Play_food_raw_eat" />
+	</consumable>
+
+	<usable>
+		<param name="title" value="Fertilize Planter"/>
+		<param name="action" value="fertilize"/>
+		<param name="soundUsed" value="Play_apply_fertilizer"/>
+		<param name="targetClassNames" value="planter_box"/>
+	</usable>
+
+	<craftable>
+		<craft name="SurvivalKnife" craft="SeedsMedcan" destroy="0" />
+		<craft name="HuntingKnife" craft="SeedsMedcan" destroy="0" />
+	</craftable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+	<steam>
+		<param name="tags" value="Category:Crafting"/>
+		<param name="icon_url" value=""/>
+		<param name="store_hidden" value="0"/>
+		<param name="amcoins" value="1"/>
+		<param name="tradable" value="0"/>
+		<param name="name_color" value="FF001E"/>
+		<param name="itemdefid" value="60001"/>
+		<param name="marketable" value="0"/>
+		<param name="store_tags" value="Category:Crafting"/>
+		<param name="background_color" value="2A2A2A"/>
+		<param name="hidden" value="0"/>
+		<param name="icon_url_large" value=""/>
+	</steam>
+	
+</item>

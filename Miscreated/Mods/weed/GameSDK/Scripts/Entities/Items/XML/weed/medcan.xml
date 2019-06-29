@@ -1,0 +1,40 @@
+<item name="medcan" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="1"/>
+		<param name="mass" value="1.25"/>
+		<param name="stack_size" value="10" />		
+		<param name="display_name" value="Medical Cannabis"/>
+		<param name="description" value="a brick of Medical Cannabis. Can be used in crafting."/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/craftingMats/medcan/medcan.cgf"/> 
+	</geometry>
+
+	<craftable>
+		<craft name="SurvivalKnife" craft="SeedsMedcan" destroy="0" />
+		<craft name="HuntingKnife" craft="SeedsMedcan" destroy="0" />
+	</craftable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+	<steam>
+		<param name="tags" value="Category:Crafting"/>
+		<param name="icon_url" value=""/>
+		<param name="store_hidden" value="0"/>
+		<param name="amcoins" value="1"/>
+		<param name="tradable" value="0"/>
+		<param name="name_color" value="FF001E"/>
+		<param name="itemdefid" value="60001"/>
+		<param name="marketable" value="0"/>
+		<param name="store_tags" value="Category:Crafting"/>
+		<param name="background_color" value="2A2A2A"/>
+		<param name="hidden" value="0"/>
+		<param name="icon_url_large" value=""/>
+	</steam>
+</item>

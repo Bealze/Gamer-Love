@@ -1,0 +1,23 @@
+<item name="Pie_crust" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.1"/>
+		<param name="stack_size" value="10" />
+		<param name="display_name" value="Pie_crust"/>
+		<param name="description" value="a Pie crust used for baking"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/medcan/baked/pie/pie_crust.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+	<steam>
+	</steam>
+</item>

@@ -1,0 +1,23 @@
+<item name="Medcan_butter" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.1"/>
+		<param name="stack_size" value="10" />
+		<param name="display_name" value="Cannabis Butter"/>
+		<param name="description" value="a stick of cannabis butter used for creative baking"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/medcan/butter/Medcan_butter.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+	<steam>
+	</steam>
+</item>

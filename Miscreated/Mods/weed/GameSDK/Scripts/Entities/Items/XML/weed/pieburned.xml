@@ -1,0 +1,26 @@
+<item name="pieburned" class="Consumable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.2"/>
+		<param name="stack_size" value="10"/>		
+		<param name="display_name" value="pieburned"/>
+		<param name="description" value="a burned pie"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/medcan/baked/pie/pie.cgf" material="Objects/medcan/baked/pie/pie_burned_mtl.mtl"/>
+	</geometry>
+
+	<consumable>
+		<param name="foodAmount" value="150"/>
+		<param name="soundConsumed" value="Play_food_raw_eat"/>
+	</consumable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>
