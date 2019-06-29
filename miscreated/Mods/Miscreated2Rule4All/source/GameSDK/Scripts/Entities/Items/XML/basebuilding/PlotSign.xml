@@ -8,7 +8,7 @@
 		<param name="display_name" value="@PlotSign"/>
 	</params>
 
-	<placeable maxPartCount="1000" buildRadiusXY="50" reserveRadiusXY="180" buildRadiusZ="27.5" reserveRadiusZ="60">
+	<placeable maxPartCount="666" buildRadiusXY="75" reserveRadiusXY="180" buildRadiusZ="27.5" reserveRadiusZ="60">
 		<param name="packup_class" value="PlotSignPacked"/>
 		<damage_multipliers>
 			<!-- standard hit types -->
