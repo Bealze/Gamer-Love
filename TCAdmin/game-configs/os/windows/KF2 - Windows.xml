@@ -20,6 +20,10 @@
     <default_slots>6</default_slots>
     <name_from_query>1</name_from_query>
     <exclude_load_balancing>0</exclude_load_balancing>
+    <custom_home_view />
+    <custom_status_view />
+    <background_image />
+    <join_url>steam://connect/$[Service.IpHostname]:$[Service.GamePort]</join_url>
     <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
 &lt;values&gt;
   &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:VirtualDirectories" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfVirtualDirectorySecurity xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;1&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[SubAdminFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Sub Admin Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;2&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[ResellerFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Reseller Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;3&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[UserFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;User Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ArrayOfVirtualDirectorySecurity&amp;gt;" type="TCAdmin.SDK.VirtualFileSystem.VirtualDirectorySecurity[],TCAdmin.SDK" /&gt;
@@ -28,11 +32,11 @@
   &lt;add key="__TCA:NOTES" value="Tweaked by Beals 2/28/2019" type="System.String,mscorlib" /&gt;
   &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:FileManager" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;FileManagerConfig xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EditPatterns&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.cfg&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.txt&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.ini&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/EditPatterns&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxEditSize&amp;gt;102400&amp;lt;/MaxEditSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDecompress&amp;gt;true&amp;lt;/EnableDecompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableCompress&amp;gt;true&amp;lt;/EnableCompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxCompressSize&amp;gt;52428800&amp;lt;/MaxCompressSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableUpload&amp;gt;true&amp;lt;/EnableUpload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDownload&amp;gt;true&amp;lt;/EnableDownload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;DefaultFileName&amp;gt;custom.cfg&amp;lt;/DefaultFileName&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;WriteBom&amp;gt;false&amp;lt;/WriteBom&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/FileManagerConfig&amp;gt;" type="TCAdmin.SDK.Web.FileManager.FileManagerConfig,TCAdmin.SDK.Web" /&gt;
   &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_ON" value="2019-03-01 23:55:07" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2019-07-08 18:26:58" type="System.DateTime,mscorlib" /&gt;
   &lt;add key="__TCA:V1_GAME_ID" value="" type="System.String,mscorlib" /&gt;
   &lt;add key="__TCA:CREATE_SYMLINK" value="False" type="System.Boolean,mscorlib" /&gt;
-  &lt;add key="__TCA:STEAM_API_GAME_VERSION" value="126:1056" type="System.String,mscorlib" /&gt;
-  &lt;add key="__TCA:STEAM_API_GAME_VERSION_UPDATE" value="2019-03-01 23:55:08" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:STEAM_API_GAME_VERSION" value="134:1056" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:STEAM_API_GAME_VERSION_UPDATE" value="2019-07-08 18:26:59" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
   </tc_games>
   <tc_game_paths>
@@ -69,6 +73,7 @@
     <sched_tasks_limit>0</sched_tasks_limit>
     <force_config_editor_create>0</force_config_editor_create>
     <collapse_mod_groups>0</collapse_mod_groups>
+    <reuse_keys_on_ip>0</reuse_keys_on_ip>
   </tc_game_general_config>
   <tc_game_ports>
     <game_id>109</game_id>
@@ -90,6 +95,46 @@
     <custom_port_8>0</custom_port_8>
     <custom_port_9>0</custom_port_9>
     <custom_port_10>0</custom_port_10>
+    <custom_port_11>0</custom_port_11>
+    <custom_port_12>0</custom_port_12>
+    <custom_port_13>0</custom_port_13>
+    <custom_port_14>0</custom_port_14>
+    <custom_port_15>0</custom_port_15>
+    <custom_port_16>0</custom_port_16>
+    <custom_port_17>0</custom_port_17>
+    <custom_port_18>0</custom_port_18>
+    <custom_port_19>0</custom_port_19>
+    <custom_port_20>0</custom_port_20>
+    <custom_port_21>0</custom_port_21>
+    <custom_port_22>0</custom_port_22>
+    <custom_port_23>0</custom_port_23>
+    <custom_port_24>0</custom_port_24>
+    <custom_port_25>0</custom_port_25>
+    <custom_port_26>0</custom_port_26>
+    <custom_port_27>0</custom_port_27>
+    <custom_port_28>0</custom_port_28>
+    <custom_port_29>0</custom_port_29>
+    <custom_port_30>0</custom_port_30>
+    <custom_port_31>0</custom_port_31>
+    <custom_port_32>0</custom_port_32>
+    <custom_port_33>0</custom_port_33>
+    <custom_port_34>0</custom_port_34>
+    <custom_port_35>0</custom_port_35>
+    <custom_port_36>0</custom_port_36>
+    <custom_port_37>0</custom_port_37>
+    <custom_port_38>0</custom_port_38>
+    <custom_port_39>0</custom_port_39>
+    <custom_port_40>0</custom_port_40>
+    <custom_port_41>0</custom_port_41>
+    <custom_port_42>0</custom_port_42>
+    <custom_port_43>0</custom_port_43>
+    <custom_port_44>0</custom_port_44>
+    <custom_port_45>0</custom_port_45>
+    <custom_port_46>0</custom_port_46>
+    <custom_port_47>0</custom_port_47>
+    <custom_port_48>0</custom_port_48>
+    <custom_port_49>0</custom_port_49>
+    <custom_port_50>0</custom_port_50>
     <custom_port_1_expression />
     <custom_port_2_expression>$[Service.GamePort] + 1</custom_port_2_expression>
     <custom_port_3_expression />
@@ -105,7 +150,7 @@
   </tc_game_ports>
   <tc_game_cmdlines>
     <game_id>109</game_id>
-    <cmdline_default>kf-bioticslab?AdminPassword=$[RConPassword]?MaxPlayers=$[Service.Slots]?Difficulty=1 -Multihome=$[Service.IpAddress] -Port=$[Service.GamePort] -QueryPort=$[Service.QueryPort] -WebAdminPort=$[Service.CustomPort1] -ConfigSubDir=SvrData</cmdline_default>
+    <cmdline_default>kf-bioticslab?AdminPassword=$[RConPassword]?MaxPlayers=$[Service.Slots]?Difficulty=1 -Multihome=$[Service.IpAddress] -Port=$[Service.GamePort] -QueryPort=$[Service.QueryPort] -WebAdminPort=$[Service.CustomPort1]</cmdline_default>
     <cmdline_private />
     <cmdline_default_custom />
     <cmdline_private_custom />
@@ -180,7 +225,7 @@
   &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_ON" value="2011-07-28 04:54:14" type="System.DateTime,mscorlib" /&gt;
   &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_ON" value="2019-03-01 23:55:08" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2019-07-08 18:27:00" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
   </tc_game_mail_templates>
   <tc_game_steam_config>
@@ -195,6 +240,13 @@
     <steam_password />
     <run_as_service_user>1</run_as_service_user>
     <store_game_id>232090</store_game_id>
+    <workshop_enabled>0</workshop_enabled>
+    <workshop_stop>0</workshop_stop>
+    <workshop_skip_download>0</workshop_skip_download>
+    <workshop_file_id_format>![FileId]</workshop_file_id_format>
+    <workshop_file_id_separator>,</workshop_file_id_separator>
+    <store_backgrounds>https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_12163b780191f084acf7cdf54e2e98e4129e297a.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_01ab15f45fb088b7e6f5d21128517a5711f7362a.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_e2a49c649cde0f214b1cbeab7005b6f43d1c4ab7.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_f3954b72086dc015f727288c4a5ba1b78611e009.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_d8963d7b0fe8daab824d06f6435572db0a72ba78.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_c04edce8047931858c9cc45e4615d05eeb30ffde.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_26a1c14da128f938789e75117abc6039487316fe.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_f379a229e188d817b0a63e00e8ad2f7a94d41f3f.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_440deb8b9806eef2f0426eb428bf37794c0ac902.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_1fe16a95b5fa2fbd6c16cc0760ee9a436ffdcc37.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_ab114ac9f0dc09dcf2d7ff9921fc33f50fbaafa1.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_3a3fe0cdb8643c59c23697bdecf18e8d76b78f1b.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_68d4055f2062ada5a8d2df7460b96ea125077d32.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_a903b1ac2c03afd727fb15e089586329b575de7d.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_805418b4ba06aafa70c52c4149483a8f57efdbca.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_4c7443b26b32632f2fdf7876f128a2b50294f78b.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_f6a9dac3d0184293a15a0eb8f8bf6b5de0c14fc3.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_a6a12ff216dd6362d5a7251f04cc211904037e49.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_0fc1844ba753e81cea3c405b91c99620713c2b85.1920x1080.jpg?t=1560871226|https://steamcdn-a.akamaihd.net/steam/apps/232090/ss_0edb07e9b4eb050ed60b266bfaf209824201d381.1920x1080.jpg?t=1560871226</store_backgrounds>
+    <use_store_backgrounds>1</use_store_backgrounds>
   </tc_game_steam_config>
   <tc_game_bukkit_config>
     <game_id>109</game_id>
@@ -269,7 +321,7 @@
     <game_id>109</game_id>
     <file_id>1</file_id>
     <mod_id>0</mod_id>
-    <relative_path>KFGame\Config\SvrData\KFWeb.ini</relative_path>
+    <relative_path>KFGame\Config\DefaultWeb.ini</relative_path>
     <description>Web Cfg</description>
     <view_order>0</view_order>
     <template>[IpDrv.WebConnection]
@@ -299,15 +351,71 @@ IncludePath=/KFGame/Web
   &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_ON" value="2019-02-28 20:36:03" type="System.DateTime,mscorlib" /&gt;
   &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_ON" value="2019-03-01 23:28:47" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2019-07-08 18:26:06" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
     <hide_read_failure>0</hide_read_failure>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>109</game_id>
+    <file_id>3</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>KFGame\Config\DefaultWebAdmin.ini</relative_path>
+    <description>KFWebAdmin CFG</description>
+    <view_order>0</view_order>
+    <template>[WebAdmin.WebAdmin]
+bHttpAuth=false
+bChatLog=false
+sessionOctetValidation=3
+startpage=/current
+QueryHandlers=WebAdmin.QHCurrentKF
+QueryHandlers=WebAdmin.QHDefaultsKF
+QueryHandlers=WebAdmin.WebAdminSystemSettings
+
+[WebAdmin.QHCurrentKF]
+ChatRefresh=5000
+bEnableTeamChat=true
+denyUrlOptions=GamePassword
+denyUrlOptions=AdminPassword
+denyUrlOptions=Port
+denyUrlOptions=QueryPort
+bConsoleEnabled=true
+bAdminConsoleCommandsHack=true
+AdminCommandHandlerClass=WebAdmin.AdminCommandHandler
+denyConsoleCommands=say
+denyConsoleCommands=obj
+denyConsoleCommands=debug
+denyConsoleCommands=flush
+denyConsoleCommands=set
+denyConsoleCommands=get engine.accesscontrol 
+
+[WebAdmin.QHDefaultsKF]
+GeneralSettingsClass=WebAdmin.GeneralSettings
+
+[WebAdmin.Chatlog]
+bUnique=false
+bIncludeTimeStamp=true
+</template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:Encoding" value="0" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2019-07-08 18:24:49" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2019-07-08 18:24:57" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <hide_read_failure>0</hide_read_failure>
+    <update_automatically>1</update_automatically>
   </tc_game_config_files>
   <tc_game_config_files>
     <game_id>109</game_id>
     <file_id>2</file_id>
     <mod_id>0</mod_id>
-    <relative_path>KFGame\Config\SvrData\PCServer-KFGame.ini</relative_path>
+    <relative_path>KFGame\Config\PCServer-KFGame.ini</relative_path>
     <description>Cfg</description>
     <view_order>0</view_order>
     <template>[Engine.GameInfo]
@@ -1041,7 +1149,7 @@ ShellEjectLifetime=10.f
 [KFGame.KFAccessControl]
 bSilentAdminLogin=False</template>
     <enable_config_editor>0</enable_config_editor>
-    <read_values>0</read_values>
+    <read_values>1</read_values>
     <hide_path>0</hide_path>
     <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
 &lt;values&gt;
@@ -1050,9 +1158,10 @@ bSilentAdminLogin=False</template>
   &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_ON" value="2019-03-01 23:25:54" type="System.DateTime,mscorlib" /&gt;
   &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_ON" value="2019-03-01 23:40:45" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2019-07-08 18:17:05" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
     <hide_read_failure>0</hide_read_failure>
+    <update_automatically>1</update_automatically>
   </tc_game_config_files>
   <tc_game_links>
     <game_id>109</game_id>
@@ -1417,6 +1526,16 @@ bSilentAdminLogin=False</template>
     <reseller_access>0</reseller_access>
     <user_access>0</user_access>
     <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>109</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Workshop</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
 </KF2>
