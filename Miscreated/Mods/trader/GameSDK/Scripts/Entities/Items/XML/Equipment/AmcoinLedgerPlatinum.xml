@@ -1,0 +1,22 @@
+<item name="AmcoinLedgerPlatinum" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.1"/>
+		<param name="stack_size" value="255"/>
+		<param name="stack_size_spawned" value="1"/>
+		<param name="display_name" value="Amcoin Ledger Platinum"/>
+		<param name="description" value="Platinum Amcoin Ledger, Fifty Times As Valuble As Normal Amcoins"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/props/amcoin_ledger/amcoin_ledger.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

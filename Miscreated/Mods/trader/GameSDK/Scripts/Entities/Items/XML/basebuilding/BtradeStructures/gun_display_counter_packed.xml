@@ -1,0 +1,24 @@
+<item name="gun_display_counter_packed" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="3"/>
+		<param name="display_name" value="Packed Gun Display Counter"/>
+		<param name="description" value="A Packed Gun Display Counter"/>
+	</params>
+
+	<base_part class="entity" type="519" name="gun_display_counter_packed" max_health="8000" limit="4">
+		<entity class="gun_display_counter"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="Objects/props/gun_store/gun_display_counter.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

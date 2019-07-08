@@ -1,0 +1,32 @@
+<item name="wornWorkBench" class="BaseBuildingItem" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="-1"/> 
+		<param name="limit" value="2"/>
+		<param name="display_name" value="Worn Work Bench"/>		
+		<param name="description" value="Buy And Sell Equipment Here"/>
+	</params>
+
+    <base_part class="static" type="541" name="wornWorkBench" max_health="5000" limit="3">
+		<static filename="Objects/props/wornWorkBench/wornWorkBench.cgf"/>
+		<base_actions>
+			<!-- just opens the player's inventory -->
+			<base_action class="open_inventory">
+				<open_inventory message="Welcome To Rebirth Virtual Traders"/>
+			</base_action>
+		</base_actions>
+	</base_part>
+	
+
+	<geometry>
+		<thirdperson name="Objects/props/wornWorkBench/wornWorkBench.cgf"/>
+	</geometry>
+
+	<storage>
+		<types>
+			<type category="any" capacity="25"/> 
+		</types>
+	</storage>	
+
+</item>

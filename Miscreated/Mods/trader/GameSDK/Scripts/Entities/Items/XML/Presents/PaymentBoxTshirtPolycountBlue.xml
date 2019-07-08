@@ -1,0 +1,27 @@
+<item name="PaymentBoxTshirtPolycountBlue" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.0"/>
+		<param name="stack_size" value="5" />
+		<param name="display_name" value="Rebirth Payment Box"/>
+		<param name="description" value="Payment For Selling A Item Of Clothing, Gives 1 Amcoin Ledger Bronze"/>
+	</params>
+
+	<geometry>
+		<onground name="Objects/props/christmas_presents/present_3.cgf" material="Objects/props/christmas_presents/christmas_presents_red_green"/>
+	</geometry>
+
+	<usable>
+		<param name="action" value="craft"/>
+		<param name="param" value="AmcoinLedgerBronze" />
+		<param name="soundUsed" value="Play_pickup_metal"/>
+	</usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

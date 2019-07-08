@@ -1,0 +1,24 @@
+<item name="wornWorkBench_packed" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="3"/>
+		<param name="display_name" value="Worn WorkBench Packed"/>
+		<param name="description" value="Packed Worn WorkBench"/>
+	</params>
+
+	<base_part class="entity" type="513" name="wornWorkBench_packed" max_health="8000" limit="4">
+		<entity class="wornWorkBench"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="Objects/props/wornWorkBench/wornWorkBench.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Rebirth AM Exchange">
+				<subcats>
+					<subcat name="Convert Ledgers">
+						<types>
+							<type name="Increase">
+								<items>
+							        <item class="AmcoinLedgerBronze" time="2">
+								        <materials>
+									        <material class="AmcoinLedger" count="5" />									
+								        </materials>
+							        </item>
+									<item class="AmcoinLedgerSilver" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="2" />									
+								        </materials>
+							        </item>
+									<item class="AmcoinLedgerGold" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerSilver" count="2" />									
+								        </materials>
+							        </item>
+									<item class="AmcoinLedgerPlatinum" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerSilver" count="5" />									
+								        </materials>
+							        </item>
+									<item class="AmcoinLedgerDiamond" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerPlatinum" count="2" />									
+								        </materials>
+							        </item>	
+						        </items>
+							</type>	
+							<type name="Decrease">
+								<items>
+							        <item class="AmcoinLedgerPlatinum" time="2" amount="2">
+								        <materials>
+									        <material class="AmcoinLedgerDiamond" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxAmcoinLedgerPlatinum" time="2" amount="5">
+								        <materials>
+									        <material class="AmcoinLedgerPlatinum" />									
+								        </materials>
+							        </item>
+									<item class="AmcoinLedgerSilver" time="2" amount="2">
+								        <materials>
+									        <material class="AmcoinLedgerGold" />									
+								        </materials>
+							        </item>
+									<item class="AmcoinLedgerBronze" time="2" amount="2">
+								        <materials>
+									        <material class="AmcoinLedgerSilver" />									
+								        </materials>
+							        </item>
+									<item class="AmcoinLedger" time="2" amount="5">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" />									
+								        </materials>
+							        </item>						
+						        </items>
+							</type>	
+                        </types>
+				    </subcat>
+				</subcats>
+			</cat>		
+        </cats>
+	</guide>
+</recipes>

@@ -1,0 +1,843 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<recipes>
+	<guide name="gun_display_counter">
+		<cats>
+			<cat name="Rebirth Virtual Traders">
+				<subcats>
+					<subcat name="Buy Weapons">
+						<types>
+							<type name="Handguns">
+								<items>
+							        <item class="ruger22" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerGold" count="2" />									
+								        </materials>
+							        </item>
+									<item class="PX4" time="2">
+								        <materials>
+										    <material class="AmcoinLedgerBronze" count="1" />
+										    <material class="AmcoinLedgerSilver" count="1" />
+									        <material class="AmcoinLedgerGold" count="2" />									
+								        </materials>
+							        </item>
+									<item class="P350" time="2">
+								        <materials>
+										    <material class="AmcoinLedgerGold" count="1" />	
+									        <material class="AmcoinLedgerPlatinum" count="1" />									
+								        </materials>
+							        </item>
+									<item class="Makarov" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+											<material class="AmcoinLedgerPlatinum" count="1" />	
+								        </materials>
+							        </item>
+									<item class="m1911a1" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerPlatinum" count="1" />									
+								        </materials>
+							        </item>
+									<item class="hk45" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />	
+											<material class="AmcoinLedgerPlatinum" count="1" />	
+								        </materials>
+							        </item>
+									<item class="G18Pistol" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />	
+											<material class="AmcoinLedgerPlatinum" count="1" />									
+								        </materials>
+							        </item>
+									<item class="FlareGun" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerSilver" count="1" />
+									        <material class="AmcoinLedgerGold" count="1" />										
+								        </materials>
+							        </item>	
+									<item class="ColtPython" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerPlatinum" count="1" />									
+								        </materials>
+							        </item>	
+						        </items>
+							</type>	
+							<type name="Shotguns">
+								<items>
+							        <item class="AA12" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />	
+											<material class="AmcoinLedgerGold" count="1" />
+											<material class="AmcoinLedgerPlatinum" count="1" />										
+								        </materials>
+							        </item>
+									<item class="Rem870" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerSilver" count="1" />
+											<material class="AmcoinLedgerPlatinum" count="1" />	
+								        </materials>
+							        </item>
+									<item class="SawedShotgun" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />	
+											<material class="AmcoinLedgerSilver" count="1" />
+											<material class="AmcoinLedgerPlatinum" count="1" />
+								        </materials>
+							        </item>
+									<item class="Shotgun870Tactical" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerGold" count="1" />
+											<material class="AmcoinLedgerPlatinum" count="1" />									
+								        </materials>
+							        </item>						
+						        </items>
+							</type>	
+							<type name="Assault Rifles">
+							    <items>
+							        <item class="R90" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerGold" count="2" />
+											<material class="AmcoinLedgerPlatinum" count="1" />										
+								        </materials>
+							        </item>
+									<item class="MP5" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />	
+											<material class="AmcoinLedgerGold" count="1" />
+											<material class="AmcoinLedgerPlatinum" count="1" />									
+								        </materials>
+							        </item>
+									<item class="Mk18" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerGold" count="2" />
+											<material class="AmcoinLedgerPlatinum" count="1" />									
+								        </materials>
+							        </item>
+									<item class="M249" time="2">
+								        <materials>
+										    <material class="AmcoinLedgerPlatinum" count="1" />
+									        <material class="AmcoinLedgerDiamond" count="1" />									
+								        </materials>
+							        </item>
+									<item class="M16" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+											<material class="AmcoinLedgerGold" count="2" />
+											<material class="AmcoinLedgerPlatinum" count="1" />
+								        </materials>
+							        </item>
+									<item class="KrissV" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+											<material class="AmcoinLedgerSilver" count="3" />
+											<material class="AmcoinLedgerPlatinum" count="1" />									
+								        </materials>
+							        </item>	
+									<item class="Bulldog" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerGold" count="1" />
+											<material class="AmcoinLedgerPlatinum" count="1" />									
+								        </materials>
+							        </item>
+									<item class="AUMP45" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+											<material class="AmcoinLedgerSilver" count="3" />
+											<material class="AmcoinLedgerPlatinum" count="1" />										
+								        </materials>
+							        </item>	
+									<item class="AT15" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerSilver" count="3" />
+											<material class="AmcoinLedgerPlatinum" count="1" />									
+								        </materials>
+							        </item>	
+									<item class="AKM" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerGold" count="2" />
+											<material class="AmcoinLedgerPlatinum" count="1" />								
+								        </materials>
+							        </item>
+									<item class="AK74U" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerGold" count="2" />
+											<material class="AmcoinLedgerPlatinum" count="1" />									
+								        </materials>
+							        </item>	
+						        </items>
+						    </type>
+							<type name="Rifles">
+							    <items>
+							        <item class="Wasteland22" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerSilver" count="3" />
+											<material class="AmcoinLedgerPlatinum" count="1" />									
+								        </materials>
+							        </item>
+									<item class="Sako_85" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerSilver" count="3" />
+											<material class="AmcoinLedgerPlatinum" count="1" />										
+								        </materials>
+							        </item>
+									<item class="Rem700" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+											<material class="AmcoinLedgerSilver" count="3" />
+											<material class="AmcoinLedgerPlatinum" count="1" />	
+								        </materials>
+							        </item>
+									<item class="Model70" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerSilver" count="3" />
+											<material class="AmcoinLedgerPlatinum" count="1" />										
+								        </materials>
+							        </item>
+									<item class="M40A5" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerDiamond" count="1" />									
+								        </materials>
+							        </item>
+									<item class="ACAW" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerSilver" count="3" />
+											<material class="AmcoinLedgerPlatinum" count="1" />										
+								        </materials>
+							        </item>														
+						        </items>
+						    </type>
+						</types>
+				    </subcat>
+					<subcat name="Buy Ammo">
+						<types>
+							<type name="Ammo">
+								<items>
+							        <item class="Pile_12GaugeBeanbag" time="2" amount="10">
+								        <materials>
+									        <material class="AmcoinLedgerGold" count="1" />									
+								        </materials>
+							        </item>
+									<item class="Pile_12GaugePellet" time="2" amount="10">
+								        <materials>
+									        <material class="AmcoinLedgerSilver" count="1" />
+											<material class="AmcoinLedgerGold" count="1" />
+								        </materials>
+							        </item>
+									<item class="Pile_12GaugeSlug" time="2" amount="10">
+								        <materials>
+									        <material class="AmcoinLedgerSilver" count="1" />
+											<material class="AmcoinLedgerGold" count="1" />									
+								        </materials>
+							        </item>
+									<item class="Pile_22" time="2" amount="10">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="3" />									
+								        </materials>
+							        </item>
+									<item class="Pile_45ACP" time="2" amount="10">
+								        <materials>
+									        <material class="AmcoinLedgerGold" count="1" />										
+								        </materials>
+							        </item>
+									<item class="Pile_57x28" time="2" amount="10">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+											<material class="AmcoinLedgerSilver" count="1" />
+											<material class="AmcoinLedgerGold" count="1" />
+								        </materials>
+							        </item>
+									<item class="Pile_223" time="2" amount="10">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+											<material class="AmcoinLedgerSilver" count="1" />
+											<material class="AmcoinLedgerGold" count="1" />									
+								        </materials>
+							        </item>
+									<item class="Pile_308" time="2" amount="10">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+											<material class="AmcoinLedgerSilver" count="1" />
+											<material class="AmcoinLedgerGold" count="1" />									
+								        </materials>
+							        </item>	
+									<item class="Pile_357" time="2" amount="10">
+								        <materials>
+									        <material class="AmcoinLedger" count="2" />
+											<material class="AmcoinLedgerBronze" count="1" />
+											<material class="AmcoinLedgerGold" count="1" />	
+								        </materials>
+							        </item>	
+									<item class="Pile_545x39" time="2" amount="10">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+											<material class="AmcoinLedgerSilver" count="1" />
+											<material class="AmcoinLedgerGold" count="1" />										
+								        </materials>
+							        </item>
+									<item class="Pile_556x45" time="2" amount="10">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+											<material class="AmcoinLedgerSilver" count="1" />
+											<material class="AmcoinLedgerGold" count="1" />										
+								        </materials>
+							        </item>
+									<item class="Pile_762x39" time="2" amount="10">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+											<material class="AmcoinLedgerSilver" count="1" />
+											<material class="AmcoinLedgerGold" count="1" />										
+								        </materials>
+							        </item>	
+									<item class="Pile_762x51" time="2" amount="10">
+								        <materials>
+									        <material class="AmcoinLedgerGold" count="2" />										
+								        </materials>
+							        </item>	
+						        </items>
+							</type>	
+						</types>
+				    </subcat>
+					<subcat name="Buy Magazines">
+						<types>
+							<type name="Magazines">
+								<items>
+							        <item class="STANAGx30" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="3" />									
+								        </materials>
+							        </item>
+									<item class="M40x5" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedgerGold" count="1" />									
+								        </materials>
+							        </item>
+									<item class="acp_45x30" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="3" />									
+								        </materials>
+							        </item>
+									<item class="acp_45x20" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="3" />									
+								        </materials>
+							        </item>
+									<item class="acp_45x10_hk" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedgerSilver" count="1" />									
+								        </materials>
+							        </item>
+									<item class="acp_45x7" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedger" count="2" />
+									        <material class="AmcoinLedgerBronze" count="1" />																				
+								        </materials>
+							        </item>
+									<item class="762x30" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="3" />									
+								        </materials>
+							        </item>
+									<item class="762x5" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedgerGold" count="1" />									
+								        </materials>
+							        </item>	
+									<item class="556x100" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedgerGold" count="1" />
+									        <material class="AmcoinLedgerPlatinum" count="1" />									
+								        </materials>
+							        </item>	
+									<item class="545x30" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="3" />									
+								        </materials>
+							        </item>
+									<item class="357x14" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedger" count="2" />
+									        <material class="AmcoinLedgerSilver" count="1" />									
+								        </materials>
+							        </item>
+									<item class="57x50" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedger" count="3" />
+											<material class="AmcoinLedgerBronze" count="1" />
+									        <material class="AmcoinLedgerSilver" count="1" />
+								        </materials>
+							        </item>	
+									<item class="22x10_ruger" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedger" count="2" />
+											<material class="AmcoinLedgerBronze" count="1" />									
+								        </materials>
+							        </item>	
+									<item class="12Gaugex8_Slug_AA12" time="2" amount="0">
+								        <materials>
+											<material class="AmcoinLedgerBronze" count="3" />
+								        </materials>
+							        </item>
+									<item class="12Gaugex8_Pellet_AA12" time="2" amount="0">
+								        <materials>
+											<material class="AmcoinLedgerBronze" count="3" />
+								        </materials>
+							        </item>
+									<item class="12Gaugex8_Beanbag_AA12" time="2" amount="0">
+								        <materials>
+											<material class="AmcoinLedgerBronze" count="3" />
+								        </materials>
+							        </item>
+									<item class="10mmx30" time="2" amount="0">
+								        <materials>
+											<material class="AmcoinLedgerBronze" count="3" />
+								        </materials>
+							        </item>
+									<item class="10mmx15" time="2" amount="0">
+								        <materials>
+											<material class="AmcoinLedgerBronze" count="3" />
+								        </materials>
+							        </item>
+									<item class="9mmx33" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+											<material class="AmcoinLedgerPlatinum" count="1" />
+								        </materials>
+							        </item>
+									<item class="9mmx19_ap85" time="2" amount="0">
+								        <materials>
+											<material class="AmcoinLedgerBronze" count="1" />
+									        <material class="AmcoinLedgerGold" count="1" />									
+								        </materials>
+							        </item>	
+									<item class="9mmx19" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+									        <material class="AmcoinLedgerGold" count="1" />										
+								        </materials>
+							        </item>	
+									<item class="9mmx15_m9a1" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedgerGold" count="1" />									
+								        </materials>
+							        </item>
+									<item class="9mmx10_makarov" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedger" count="2" />
+											<material class="AmcoinLedgerSilver" count="1" />	
+								        </materials>
+							        </item>
+									<item class="9mmx10" time="2" amount="0">
+								        <materials>
+									        <material class="AmcoinLedgerSilver" count="1" />									
+								        </materials>
+							        </item>	
+						        </items>
+							</type>	
+						</types>
+				    </subcat>
+					<subcat name="Buy Attatchments">
+						<types>
+							<type name="Attatchments">
+								<items>
+							        <item class="LaserSightGreen" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+									        <material class="AmcoinLedgerGold" count="1" />										
+								        </materials>
+							        </item>
+									<item class="LaserSightBlue" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+									        <material class="AmcoinLedgerGold" count="1" />										
+								        </materials>
+							        </item>
+									<item class="LaserSight" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+									        <material class="AmcoinLedgerGold" count="1" />										
+								        </materials>
+							        </item>
+									<item class="FlashlightRifle" time="2">
+								        <materials>
+									        <material class="AmcoinLedger" count="2" />
+											<material class="AmcoinLedgerBronze" count="1" />
+											<material class="AmcoinLedgerSilver" count="1" />
+								        </materials>
+							        </item>
+									<item class="FlashlightPistol" time="2">
+								        <materials>
+									        <material class="AmcoinLedger" count="4" />
+											<material class="AmcoinLedgerSilver" count="1" />									
+								        </materials>
+							        </item>
+									<item class="BayonetRifle" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="3" />									
+								        </materials>
+							        </item>
+									<item class="ForegripVertical" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerGold" count="2" />									
+								        </materials>
+							        </item>
+									<item class="HuntingScope" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerPlatinum" count="1" />									
+								        </materials>
+							        </item>	
+									<item class="OpticScope" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerSilver" count="1" />	
+											<material class="AmcoinLedgerGold" count="1" />
+								        </materials>
+							        </item>	
+									<item class="PistolSilencer" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerGold" count="2" />									
+								        </materials>
+							        </item>
+									<item class="ReflexSight" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerBronze" count="1" />
+											<material class="AmcoinLedgerGold" count="1" />
+								        </materials>
+							        </item>
+									<item class="RifleSilencer" time="2">
+								        <materials>
+									        <material class="AmcoinLedgerSilver" count="1" />
+											<material class="AmcoinLedgerPlatinum" count="1" />	
+								        </materials>
+							        </item>	
+									<item class="T1Micro" time="2">
+								        <materials>
+									        <material class="AmcoinLedger" count="2" />
+											<material class="AmcoinLedgerBronze" count="1" />
+											<material class="AmcoinLedgerSilver" count="1" />									
+								        </materials>
+							        </item>	
+						        </items>
+							</type>	
+						</types>
+				    </subcat>
+			        <subcat name="Sell Weapons">
+						<types>
+							<type name="Handguns">
+								<items>
+							        <item class="PaymentBoxruger22" time="2" amount="3">
+								        <materials>
+									        <material class="ruger22" count="2" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxPX4" time="2">
+								        <materials>
+										    <material class="PX4" count="1" />								
+								        </materials>
+							        </item>
+									<item class="PaymentBoxP350" time="2" amount="3">
+								        <materials>
+									        <material class="P350" count="1" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxMakarov" time="2">
+								        <materials>
+											<material class="Makarov" count="1" />	
+								        </materials>
+							        </item>
+									<item class="PaymentBoxm1911a1" time="2">
+								        <materials>
+									        <material class="m1911a1" count="1" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxhk45" time="2">
+								        <materials>	
+											<material class="hk45" count="1" />	
+								        </materials>
+							        </item>
+									<item class="PaymentBoxG18Pistol" time="2">
+								        <materials>	
+											<material class="G18Pistol" count="1" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxFlareGun" time="2">
+								        <materials>
+									        <material class="FlareGun" count="1" />										
+								        </materials>
+							        </item>	
+									<item class="PaymentBoxColtPython" time="2">
+								        <materials>
+									        <material class="ColtPython" count="1" />									
+								        </materials>
+							        </item>	
+						        </items>
+							</type>	
+							<type name="Shotguns">
+								<items>
+							        <item class="PaymentBoxAA12" time="2" amount="3">
+								        <materials>
+											<material class="AA12" count="1" />										
+								        </materials>
+							        </item>
+									<item class="PaymentBoxRem870" time="2" amount="3">
+								        <materials>
+											<material class="Rem870" count="1" />	
+								        </materials>
+							        </item>
+									<item class="PaymentBoxSawedShotgun" time="2" amount="3">
+								        <materials>
+											<material class="SawedShotgun" count="1" />
+								        </materials>
+							        </item>
+									<item class="PaymentBoxShotgun870Tactical" time="2" amount="3">
+								        <materials>
+											<material class="Shotgun870Tactical" count="1" />									
+								        </materials>
+							        </item>						
+						        </items>
+							</type>	
+							<type name="Assault Rifles">
+							    <items>
+							        <item class="PaymentBoxR90" time="2" amount="2">
+								        <materials>
+											<material class="R90" count="1" />										
+								        </materials>
+							        </item>
+									<item class="PaymentBoxMP5" time="2" amount="2">
+								        <materials>
+											<material class="MP5" count="1" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxMk18" time="2" amount="2">
+								        <materials>
+											<material class="Mk18" count="1" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxM249" time="2" amount="3">
+								        <materials>
+										    <material class="M249" count="1" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxM16" time="2">
+								        <materials>
+											<material class="M16" count="1" />
+								        </materials>
+							        </item>
+									<item class="PaymentBoxKrissV" time="2" amount="2">
+								        <materials>
+											<material class="KrissV" count="1" />									
+								        </materials>
+							        </item>	
+									<item class="PaymentBoxBulldog" time="2" amount="3">
+								        <materials>
+											<material class="Bulldog" count="1" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxAUMP45" time="2" amount="2">
+								        <materials>
+											<material class="AUMP45" count="1" />										
+								        </materials>
+							        </item>	
+									<item class="PaymentBoxAT15" time="2" amount="2">
+								        <materials>
+											<material class="AT15" count="1" />									
+								        </materials>
+							        </item>	
+									<item class="PaymentBoxAKM" time="2" amount="2">
+								        <materials>
+											<material class="AKM" count="1" />								
+								        </materials>
+							        </item>
+									<item class="PaymentBoxAK74U" time="2" amount="2">
+								        <materials>
+											<material class="AK74U" count="1" />									
+								        </materials>
+							        </item>	
+						        </items>
+						    </type>
+							<type name="Rifles">
+							    <items>
+							        <item class="PaymentBoxWasteland22" time="2" amount="2">
+								        <materials>
+											<material class="Wasteland22" count="1" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxSako_85" time="2" amount="2">
+								        <materials>
+											<material class="Sako_85" count="1" />										
+								        </materials>
+							        </item>
+									<item class="PaymentBoxRem700" time="2" amount="2">
+								        <materials>
+									        <material class="Rem700" count="1" />
+										 </materials>
+							        </item>
+									<item class="PaymentBoxModel70" time="2" amount="2">
+								        <materials>
+									        <material class="Model70" count="1" />
+										</materials>
+							        </item>
+									<item class="PaymentBoxM40A5" time="2">
+								        <materials>
+									        <material class="M40A5" count="1" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxACAW" time="2" amount="2">
+								        <materials>
+									        <material class="ACAW" count="1" />									
+								        </materials>
+							        </item>														
+						        </items>
+						    </type>
+						</types>
+				    </subcat>
+					<subcat name="Sell Ammo">
+						<types>
+							<type name="Ammo">
+								<items>
+							        <item class="PaymentBoxPile_12GaugeBeanbag" time="2" >
+								        <materials>
+									        <material class="Pile_12GaugeBeanbag" count="10" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxPile_12GaugePellet" time="2" amount="3">
+								        <materials>
+									        <material class="Pile_12GaugePellet" count="10" />
+								        </materials>
+							        </item>
+									<item class="PaymentBoxPile_12GaugeSlug" time="2" amount="3">
+								        <materials>
+											<material class="Pile_12GaugeSlug" count="10" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxPile_22" time="2" amount="1">
+								        <materials>
+									        <material class="Pile_22" count="10" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxPile_45ACP" time="2" amount="1">
+								        <materials>
+									        <material class="Pile_45ACP" count="10" />										
+								        </materials>
+							        </item>
+									<item class="PaymentBoxPile_57x28" time="2" amount="3">
+								        <materials>
+									        <material class="Pile_57x28" count="10" />
+								        </materials>
+							        </item>
+									<item class="PaymentBoxPile_223" time="2" amount="3">
+								        <materials>
+											<material class="Pile_223" count="10" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxPile_308" time="2" amount="3">
+								        <materials>
+											<material class="Pile_308" count="10" />									
+								        </materials>
+							        </item>	
+									<item class="PaymentBoxPile_357" time="2" amount="1">
+								        <materials>
+											<material class="Pile_357" count="10" />	
+								        </materials>
+							        </item>	
+									<item class="PaymentBoxPile_545x39" time="2" amount="3">
+								        <materials>
+											<material class="Pile_545x39" count="10" />										
+								        </materials>
+							        </item>
+									<item class="PaymentBoxPile_556x45" time="2" amount="3">
+								        <materials>
+											<material class="Pile_556x45" count="10" />										
+								        </materials>
+							        </item>
+									<item class="PaymentBoxPile_762x39" time="2" amount="3">
+								        <materials>
+											<material class="Pile_762x39" count="10" />										
+								        </materials>
+							        </item>	
+									<item class="PaymentBoxPile_762x51" time="2" amount="1">
+								        <materials>
+									        <material class="Pile_762x51" count="10" />										
+								        </materials>
+							        </item>	
+						        </items>
+							</type>	
+						</types>
+				    </subcat>
+      			    <subcat name="Sell Attatchments">
+						<types>
+							<type name="Attatchments">
+								<items>
+							        <item class="PaymentBoxLaserSightGreen" time="2">
+								        <materials>
+									        <material class="LaserSightGreen" count="1" />										
+								        </materials>
+							        </item>
+									<item class="PaymentBoxLaserSightBlue" time="2">
+								        <materials>
+									        <material class="LaserSightBlue" count="1" />										
+								        </materials>
+							        </item>
+									<item class="PaymentBoxLaserSight" time="2">
+								        <materials>
+									        <material class="LaserSight" count="1" />										
+								        </materials>
+							        </item>
+									<item class="PaymentBoxFlashlightRifle" time="2">
+								        <materials>
+											<material class="FlashlightRifle" count="1" />
+								        </materials>
+							        </item>
+									<item class="PaymentBoxFlashlightPistol" time="2">
+								        <materials>
+											<material class="FlashlightPistol" count="1" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxBayonetRifle" time="2">
+								        <materials>
+									        <material class="BayonetRifle" count="3" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxForegripVertical" time="2">
+								        <materials>
+									        <material class="ForegripVertical" count="1" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxHuntingScope" time="2">
+								        <materials>
+									        <material class="HuntingScope" count="1" />									
+								        </materials>
+							        </item>	
+									<item class="PaymentBoxOpticScope" time="2" amount="3">
+								        <materials>
+									        <material class="OpticScope" count="1" />	
+								        </materials>
+							        </item>	
+									<item class="PaymentBoxPistolSilencer" time="2">
+								        <materials>
+									        <material class="PistolSilencer" count="1" />									
+								        </materials>
+							        </item>
+									<item class="PaymentBoxReflexSight" time="2">
+								        <materials>
+											<material class="ReflexSight" count="1" />
+								        </materials>
+							        </item>
+									<item class="PaymentBoxRifleSilencer" time="2" amount="3">
+								        <materials>
+											<material class="RifleSilencer" count="1" />	
+								        </materials>
+							        </item>	
+									<item class="PaymentBoxT1Micro" time="2">
+								        <materials>
+											<material class="T1Micro" count="1" />									
+								        </materials>
+							        </item>	
+						        </items>
+							</type>	
+						</types>
+				    </subcat>
+				</subcats>
+			</cat>		
+        </cats>
+	</guide>
+</recipes>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<recipes>
+    <guide name="guide_rebirthtraders" id="56">
+	    <cats>
+		    <cat name="Rebirth Structures">
+			    <subcats>
+				    <subcat name="Traders">
+					    <types>						   
+							<type name="Trader Counters">
+							    <items>
+							       <item class="gun_display_counter_packed"  time="1">
+								     <materials>
+									    <material class="Lumber" count="15" />	
+                                        <material class="Nails" count="4" />										
+								     </materials>
+							       </item>
+								   <item class="wornWorkBench_packed"  time="1">
+								     <materials>
+									    <material class="Lumber" count="12" />	
+                                        <material class="WoodPile" count="4" />
+                                        <material class="Nails" count="7" />									
+								     </materials>
+							       </item>								
+						        </items>											
+					    	</type>	
+				    	</types>
+			    	</subcat>		    	
+		    	</subcats>
+	        </cat>		
+        </cats>
+    </guide>
+</recipes>
